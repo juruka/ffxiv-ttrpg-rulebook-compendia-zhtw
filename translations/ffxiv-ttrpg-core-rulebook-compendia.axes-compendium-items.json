@@ -1,0 +1,525 @@
+{
+  "label": "物品",
+  "folders": {
+    "Special Mounts": "特殊坐騎",
+    "Catalysts": "觸媒",
+    "Drops": "糖球",
+    "Warding Talisman": "守護護符",
+    "Potions": "藥水",
+    "Augmentation Abilities": "增強能力",
+    "Materials": "素材",
+    "Personal Food": "個人食物",
+    "Elemental Ward Potions": "屬性防護藥水",
+    "Augmentations": "增強項目",
+    "Quest": "任務",
+    "Mounts": "坐騎",
+    "Meals": "餐點",
+    "Shared Food": "共享食物",
+    "Utility Items": "實用物品",
+    "Minions": "寵物",
+    "Status Restoratives": "異常狀態恢復藥",
+    "Tinctures": "幻藥",
+    "Consumables": "消耗品",
+    "Basic Healing / MP Regen": "基本治療／魔力(MP)恢復",
+    "Status Potions": "狀態藥水"
+  },
+  "entries": {
+    "Wayward Hatchling": {
+      "name": "迷你陸行鳥"
+    },
+    "Wind Ward Potion": {
+      "name": "風屬性防護藥水"
+    },
+    "Goggles of Gathering": {
+      "name": "採集護目鏡",
+      "target": "自身"
+    },
+    "Clear Drop": {
+      "name": "透明糖球",
+      "description": "<p><em>一顆球形的水果口味糖果</em></p>",
+      "target": "自身"
+    },
+    "Shards": {
+      "name": "碎晶",
+      "base_effect": "製作優勢骰+1"
+    },
+    "Seafood": {
+      "name": "海鮮"
+    },
+    "Mushrooms": {
+      "name": "蘑菇",
+      "target": "自身"
+    },
+    "Beverage Set": {
+      "name": "飲料組",
+      "target": "4名角色"
+    },
+    "Magicked Prism": {
+      "name": "魔法稜晶"
+    },
+    "Mega-Potion": {
+      "name": "特級治療劑",
+      "base_effect": "為使用者恢復1d6+6體力(HP)。",
+      "base_formula": "1d6+6"
+    },
+    "Tincture of Intelligence": {
+      "name": "智力之幻藥",
+      "target": "自身"
+    },
+    "Green Drop": {
+      "name": "綠色糖球",
+      "description": "<p><em>一顆球形的水果口味糖果</em></p>",
+      "target": "自身"
+    },
+    "Bread Platter": {
+      "name": "麵包拼盤",
+      "target": "4名角色"
+    },
+    "Lightweight Refit": {
+      "name": "輕量化改裝",
+      "base_effect": "此角色在遭遇戰中的第一個回合期間，速度提高1。"
+    },
+    "Flamecast Focus": {
+      "name": "火焰施法法器",
+      "ability_grants": "dict"
+    },
+    "Company-Issue Tonic": {
+      "name": "軍用補藥",
+      "range": "5 格*",
+      "target": "1 名陷入昏迷的角色",
+      "base_formula": "1d6+3"
+    },
+    "Tincture of Strength": {
+      "name": "力量之幻藥",
+      "target": "自身"
+    },
+    "Eggs": {
+      "name": "蛋"
+    },
+    "Improved Padding": {
+      "name": "強化襯墊",
+      "base_effect": "在冒險者步驟開始時，獲得 1 體力(HP)的護盾。"
+    },
+    "Icecast Focus": {
+      "name": "冰結法器",
+      "ability_grants": "dict"
+    },
+    "Black Drop": {
+      "name": "黑色液滴",
+      "description": "<p><em>一顆球形的水果口味糖果</em></p>",
+      "target": "自身"
+    },
+    "Crystals": {
+      "name": "水晶",
+      "base_effect": "製作優勢骰 +2"
+    },
+    "X-Potion": {
+      "name": "特級治療藥",
+      "base_effect": "恢復使用者 2d6+6 體力(HP)",
+      "base_formula": "2d6+6"
+    },
+    "Elemental Veil": {
+      "name": "元素帷幕"
+    },
+    "Elemental Veil II": {
+      "name": "元素帷幕 II"
+    },
+    "Red Drop": {
+      "name": "紅色液滴",
+      "description": "<p><em>一顆球形的水果口味糖果</em></p>",
+      "target": "自身"
+    },
+    "Deflecting Edge": {
+      "name": "偏斜鋒刃",
+      "ability_grants": "dict"
+    },
+    "Magic Damper": {
+      "name": "魔法抑制器",
+      "ability_grants": "dict"
+    },
+    "Mega-Ether": {
+      "name": "強效以太藥",
+      "base_effect": "恢復使用者 1 魔力(MP)；若使用者等級為 55 或以下，則恢復 2 魔力(MP)",
+      "target": "自身"
+    },
+    "Aetheryte Pendulum": {
+      "name": "以太之光擺錘",
+      "target": "自身"
+    },
+    "Tincture of Dexterity": {
+      "name": "靈巧之幻藥",
+      "target": "自身"
+    },
+    "Fire": {
+      "name": "火",
+      "base_effect": "對目標造成2點傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Ahriman": {
+      "name": "浮遊眼"
+    },
+    "Curecast Focus": {
+      "name": "治療法器",
+      "ability_grants": "dict"
+    },
+    "Warding Talisman": {
+      "name": "守護護符",
+      "range": "整張遭遇戰地圖",
+      "target": "自身"
+    },
+    "Bomb": {
+      "name": "爆彈怪",
+      "range": "1 格",
+      "target": "範圍內的 1 格",
+      "base_formula": "1d6"
+    },
+    "Picnic Set": {
+      "name": "野餐組合",
+      "target": "4名角色"
+    },
+    "Remedy": {
+      "name": "萬靈藥",
+      "target": "自身"
+    },
+    "Seafood Platter": {
+      "name": "海鮮拼盤",
+      "target": "4名角色"
+    },
+    "Blue Drop": {
+      "name": "藍色液滴",
+      "description": "<p><em>一顆球形的水果口味糖果</em></p>",
+      "target": "自身"
+    },
+    "Aetherial Focus II": {
+      "name": "以太法器 II",
+      "base_effect": "遭遇戰開始時擁有 7 魔力(MP)。此效果不會提高魔力(MP)上限。"
+    },
+    "Parry": {
+      "name": "招架",
+      "base_effect": "針對觸發招架的能力檢定，你的防禦提高 1。",
+      "limitations": "每階段一次",
+      "trigger": "以你為目標的能力完成能力檢定後立即使用"
+    },
+    "Smallclothes": {
+      "name": "內衣",
+      "target": "自身"
+    },
+    "X-Ether": {
+      "name": "特級以太藥",
+      "base_effect": "恢復使用者 1 魔力(MP)；若使用者等級為 60 或以下，則恢復 2 魔力(MP)"
+    },
+    "Yellow Drop": {
+      "name": "黃色液滴",
+      "description": "<p><em>一顆球形的水果口味糖果</em></p>",
+      "target": "自身"
+    },
+    "Goggles of Crafting": {
+      "name": "製作護目鏡",
+      "target": "自身"
+    },
+    "Fire Ward Potion": {
+      "name": "禦火藥"
+    },
+    "Mana Conduit": {
+      "name": "魔力導管"
+    },
+    "Ether": {
+      "name": "以太藥",
+      "base_effect": "恢復使用者 1 魔力(MP)。",
+      "target": "自身"
+    },
+    "Crafting Materials": {
+      "name": "製作素材",
+      "base_effect": "製作加值 +2"
+    },
+    "Allagan Node": {
+      "name": "亞拉戈球體"
+    },
+    "Aetherial Focus": {
+      "name": "以太法器",
+      "base_effect": "遭遇戰開始時擁有 6 魔力(MP)。此效果不會提高魔力(MP)上限。"
+    },
+    "Earth Ward Potion": {
+      "name": "耐土藥"
+    },
+    "First Aid Kit": {
+      "name": "急救包",
+      "base_effect": "使目標恢復 [[/roll 1d6+3]] 點體力(HP)。",
+      "range": "1 格。",
+      "target": "單體"
+    },
+    "Hi-Ether": {
+      "name": "高級乙太藥",
+      "base_effect": "使使用者恢復 1 點魔力(MP)；若使用者等級為 50 或以下，則恢復 2 點魔力(MP)。",
+      "target": "自身"
+    },
+    "Chocobo": {
+      "name": "陸行鳥",
+      "description": "<p><em>召喚你在城邦伊修加德出生並培育的陸行鳥。</em></p>"
+    },
+    "Medical Kit": {
+      "name": "醫療包",
+      "base_effect": "使目標恢復 [[/r 2d6+6]] 點體力(HP)。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Protective Ward": {
+      "name": "防護結界",
+      "condition": "本回合除了另一個瞬發能力外，還可使用防護結界"
+    },
+    "Behemoth": {
+      "name": "貝希摩斯"
+    },
+    "Lightning Ward Potion": {
+      "name": "耐雷藥",
+      "target": "自身"
+    },
+    "Breads": {
+      "name": "麵包",
+      "target": "自身"
+    },
+    "Fireworks": {
+      "name": "煙火",
+      "base_effect": "若在遭遇戰中使用，對所有目標造成 1 點傷害",
+      "range": "以使用者為中心的 3x3 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Blizzard": {
+      "name": "冰結",
+      "base_effect": "對目標造成2點傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "White Drop": {
+      "name": "白色糖果",
+      "description": "<p><em>一顆球形的水果口味糖果</em></p>",
+      "target": "自身"
+    },
+    "Eye Drops": {
+      "name": "眼藥",
+      "base_effect": "解除使用者的失明狀態。",
+      "target": "自身"
+    },
+    "Hi-Potion": {
+      "name": "高級治療劑",
+      "description": "<p><em>這種調製藥劑能立即恢復一定量的體力(HP)。</em></p>",
+      "base_effect": "使使用者恢復 1d6+3 點體力(HP)",
+      "base_formula": "1d6+3"
+    },
+    "Potent Poisoning Potion": {
+      "name": "強力毒藥",
+      "description": "<p><em>會引發嚴重內出血的強效調製藥劑</em></p>",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Water Ward Potion": {
+      "name": "耐水藥",
+      "target": "自身"
+    },
+    "Echo Drops": {
+      "name": "山彥草",
+      "base_effect": "解除使用者的沉默狀態。"
+    },
+    "Coerthan Snowball": {
+      "name": "庫爾札斯雪球",
+      "base_effect": "若在遭遇戰中使用，對目標造成 1 點傷害",
+      "range": "5 格",
+      "target": "單體"
+    },
+    "Magitek Death Claw": {
+      "name": "魔導死亡爪"
+    },
+    "Meat": {
+      "name": "肉類",
+      "target": "自身"
+    },
+    "Tincture of Mind": {
+      "name": "精神之幻藥",
+      "target": "自身"
+    },
+    "Potent Paralyzing Potion": {
+      "name": "強力麻痺藥",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Egg Platter": {
+      "name": "蛋料理拼盤",
+      "target": "4名角色"
+    },
+    "Sparkling Wine": {
+      "name": "氣泡酒",
+      "base_effect": "若在遭遇戰中使用，對目標造成 1 點傷害"
+    },
+    "Sweets Platter": {
+      "name": "甜點拼盤",
+      "target": "4名角色"
+    },
+    "Aetherwall": {
+      "name": "以太壁壘",
+      "base_effect": "針對觸發以太壁壘的能力，你的魔法防禦提高 1。",
+      "limitations": "每階段一次"
+    },
+    "Beverages": {
+      "name": "飲料",
+      "target": "自身"
+    },
+    "Meat Platter": {
+      "name": "肉類拼盤",
+      "target": "4名角色"
+    },
+    "Antidote": {
+      "name": "解毒藥",
+      "base_effect": "移除使用者身上的一項持續傷害(DOT)。使用者可選擇要移除哪一項持續傷害(DOT)。",
+      "target": "自身"
+    },
+    "Crafting Materials (HQ)": {
+      "name": "製作素材（HQ）",
+      "base_effect": "製作加值 +3"
+    },
+    "Mushroom Platter": {
+      "name": "蘑菇拼盤",
+      "target": "4名角色"
+    },
+    "Potent Sleeping Potion": {
+      "name": "強力睡眠藥",
+      "description": "<p><em>能立即使人陷入沉睡的強效調製藥劑</em></p>",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Sweets": {
+      "name": "甜點",
+      "target": "自身"
+    },
+    "Rod of the Luminary": {
+      "name": "金光釣竿",
+      "condition": "使用稱號「草原垂釣者」、「森林垂釣者」或「沙漠垂釣者」",
+      "range": "3 格",
+      "target": "單體"
+    },
+    "Spectacles": {
+      "name": "眼鏡",
+      "target": "自身"
+    },
+    "Mammet #001": {
+      "name": "魔法人偶001"
+    },
+    "Potent Silencing Potion": {
+      "name": "強力沉默藥",
+      "description": "<p><em>會使人暫時失聲的強效調製藥劑。</em></p>"
+    },
+    "Potent Blinding Potion": {
+      "name": "強力失明藥",
+      "description": "<p><em>能使人暫時失明的強效藥劑。</em></p>"
+    },
+    "Purple Drop": {
+      "name": "紫色滴劑",
+      "description": "<p><em>一顆球形的水果口味糖果</em></p>",
+      "target": "自身"
+    },
+    "Tincture of Vitality": {
+      "name": "耐力之幻藥"
+    },
+    "Cure": {
+      "name": "治療",
+      "base_effect": "恢復目標 2 體力(HP)。",
+      "cost": "2 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Potion": {
+      "name": "恢復藥",
+      "description": "<p><em>能立即恢復少量體力(HP)的低效藥劑。</em></p>",
+      "base_effect": "為使用者恢復3點體力(HP)。",
+      "target": "自身"
+    },
+    "Cherry Bomb": {
+      "name": "櫻桃爆彈"
+    },
+    "Clusters": {
+      "name": "晶簇",
+      "base_effect": "製作優勢骰 +3"
+    },
+    "Precision Opener": {
+      "name": "精密開鎖器"
+    },
+    "Grand Company Warsteed": {
+      "name": "大國防聯軍戰馬"
+    },
+    "Rare Crafting Materials": {
+      "name": "稀有製作素材",
+      "base_effect": "製作加值 +5"
+    },
+    "Defender's Boon": {
+      "name": "防衛者的恩惠"
+    },
+    "Spine Drops": {
+      "name": "元氣藥",
+      "base_effect": "解除使用者的麻痺狀態。",
+      "target": "自身"
+    },
+    "Ice Ward Potion": {
+      "name": "禦冰藥",
+      "target": "自身"
+    },
+    "Gold Needle": {
+      "name": "金針",
+      "base_effect": "解除使用者的石化狀態。",
+      "target": "自身"
+    },
+    "Fortifying Brew": {
+      "name": "強身藥酒",
+      "base_effect": "為使用者賦予可吸收1d6點體力(HP)傷害的護盾。",
+      "target": "自身",
+      "base_formula": "1d6"
+    },
+    "Smelling Salts": {
+      "name": "清醒藥",
+      "base_effect": "解除使用者的睡眠狀態。",
+      "target": "自身"
+    },
+    "Combat Mammet": {
+      "name": "戰鬥用魔法人偶",
+      "base_effect": "參閱此物品的說明。"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "base_effect": "system.base_effect",
+    "challenge": "system.challenge",
+    "combo": "system.combo",
+    "condition": "system.condition",
+    "cost": "system.cost",
+    "direct_hit": "system.direct_hit",
+    "limitations": "system.limitations",
+    "range": "system.range",
+    "target": "system.target",
+    "trigger": "system.trigger",
+    "traits": "system.traits",
+    "base_formula": "system.base_formula",
+    "job_name": "system.job_name",
+    "effects": {
+      "path": "effects",
+      "converter": "ffxivEffects"
+    },
+    "ability_grants": {
+      "path": "system.ability_grants",
+      "converter": "ffxivGrants"
+    },
+    "pet_grants": {
+      "path": "system.pet_grants",
+      "converter": "ffxivPetGrants"
+    },
+    "summon_actors": {
+      "path": "system.summon_actors",
+      "converter": "ffxivNamed"
+    }
+  }
+}

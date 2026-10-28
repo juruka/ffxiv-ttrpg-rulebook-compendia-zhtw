@@ -1,0 +1,37 @@
+{
+  "id": "ffxiv-ttrpg-compendia-zh-tw",
+  "title": "FFXIV TTRPG Rulebook Compendia 繁體中文翻譯",
+  "description": "以 Babele 將 FFXIV TTRPG Rulebook Compendia 合集翻譯為繁體中文（術語參考 FF14 官方中文譯名）。",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "juruka"
+    }
+  ],
+  "esmodules": [
+    "scripts/babele.js"
+  ],
+  "languages": [],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      },
+      {
+        "id": "ffxiv-ttrpg-core-rulebook-compendia",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "ffxiv",
+        "type": "system"
+      }
+    ]
+  }
+}

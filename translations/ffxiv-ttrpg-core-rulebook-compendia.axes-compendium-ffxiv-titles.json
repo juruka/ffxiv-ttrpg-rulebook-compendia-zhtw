@@ -1,0 +1,68 @@
+{
+  "label": "稱號",
+  "folders": {
+    "Fisher Personal Quests": "捕魚人個人任務"
+  },
+  "entries": {
+    "Forestcaster": {
+      "name": "森林釣手"
+    },
+    "Alert": {
+      "name": "警敏"
+    },
+    "Athletic": {
+      "name": "運動健將"
+    },
+    "________ Adventurer": {
+      "name": "________冒險者"
+    },
+    "Meadowcaster": {
+      "name": "草原釣手"
+    },
+    "Tenacious": {
+      "name": "堅韌"
+    },
+    "Chirugeon": {
+      "name": "外科醫師"
+    },
+    "Desertcaster": {
+      "name": "沙漠釣手"
+    },
+    "Sprinter": {
+      "name": "短跑健將"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "base_effect": "system.base_effect",
+    "challenge": "system.challenge",
+    "combo": "system.combo",
+    "condition": "system.condition",
+    "cost": "system.cost",
+    "direct_hit": "system.direct_hit",
+    "limitations": "system.limitations",
+    "range": "system.range",
+    "target": "system.target",
+    "trigger": "system.trigger",
+    "traits": "system.traits",
+    "base_formula": "system.base_formula",
+    "job_name": "system.job_name",
+    "effects": {
+      "path": "effects",
+      "converter": "ffxivEffects"
+    },
+    "ability_grants": {
+      "path": "system.ability_grants",
+      "converter": "ffxivGrants"
+    },
+    "pet_grants": {
+      "path": "system.pet_grants",
+      "converter": "ffxivPetGrants"
+    },
+    "summon_actors": {
+      "path": "system.summon_actors",
+      "converter": "ffxivNamed"
+    }
+  }
+}

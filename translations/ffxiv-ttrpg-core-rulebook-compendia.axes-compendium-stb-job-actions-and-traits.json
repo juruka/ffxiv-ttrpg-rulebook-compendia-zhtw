@@ -1,0 +1,3108 @@
+{
+  "label": "職業技能與特性 (StB)",
+  "folders": {
+    "Instant": "瞬發",
+    "Primary": "主要",
+    "LV70": "LV70",
+    "Traits": "特性",
+    "Secondary": "次要",
+    "LV65": "LV65",
+    "LV30": "LV30",
+    "LV40": "LV40",
+    "Ninjutsu": "忍術",
+    "LV60": "LV60",
+    "Songs": "歌曲",
+    "Monk": "武僧",
+    "Dragoon": "龍騎士",
+    "LV55": "LV55",
+    "Cards": "卡牌",
+    "Ninja": "忍者",
+    "Black Mage": "黑魔法師",
+    "Bard": "吟遊詩人",
+    "Red Mage": "赤魔法師",
+    "Dark Knight": "暗黑騎士",
+    "Scholar": "學者",
+    "Summoner": "召喚師",
+    "LV50": "LV50",
+    "Pets": "寵物",
+    "Machinist": "機工士",
+    "Techniques": "技巧",
+    "Paladin": "騎士",
+    "White Mage": "白魔法師",
+    "Warrior": "戰士",
+    "Astrologian": "占星術士",
+    "Samurai": "武士"
+  },
+  "entries": {
+    "Guardian's Lament": {
+      "name": "守護者的哀歌"
+    },
+    "Moulinet": {
+      "name": "劃圓劍",
+      "base_effect": "對所有目標造成 2 點傷害。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成2點傷害。",
+      "range": "與此角色相鄰的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Enhanced Perfect Balance": {
+      "name": "震腳效果提高"
+    },
+    "Fleche": {
+      "name": "飛刺",
+      "base_effect": "對目標造成 13 點傷害。",
+      "limitations": "每階段兩次",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Hakaze": {
+      "name": "刃風",
+      "base_effect": "對目標造成 7 點傷害。",
+      "challenge": "目標的防禦",
+      "combo": "武士連擊：月、武士連擊：花，或雪風",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Veraero": {
+      "name": "赤疾風",
+      "challenge": "目標的魔法防禦",
+      "condition": "你本回合尚未執行任何主要或次要行動。",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Acceleration": {
+      "name": "促進",
+      "base_effect": "dict"
+    },
+    "Nastrond": {
+      "name": "死者之岸",
+      "base_effect": "對所有目標造成 25 傷害。",
+      "challenge": "目標的防禦",
+      "condition": "處於死者之岸預備效果下",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "與此角色相鄰的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Bloodbath": {
+      "name": "浴血",
+      "base_effect": "獲得<strong>吸取</strong> (2)，持續至本回合結束。",
+      "limitations": "每階段一次"
+    },
+    "Clemency": {
+      "name": "深仁厚澤",
+      "cost": "4 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "2d6 + 4",
+      "base_effect": "dict"
+    },
+    "Enchanted Riposte Combo (Enchanted Riposte + Enchanted Zwerchhau + Enchanted Redoublement)": {
+      "name": "魔回刺連擊（魔回刺 + 魔交擊斬 + 魔連攻）",
+      "base_effect": "對目標造成 4d6 + 20 傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "3 黑魔元與 3 白魔元",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_formula": "4d6 + 20"
+    },
+    "Noto": {
+      "name": "納刀",
+      "base_effect": "獲得<strong>納刀</strong>。"
+    },
+    "Meikyo Shisui": {
+      "name": "明鏡止水",
+      "base_effect": "獲得 3 層<strong>明鏡止水</strong>。",
+      "limitations": "每階段一次",
+      "trigger": "在你的回合中隨時使用"
+    },
+    "Celestial Revolution": {
+      "name": "翻天腳",
+      "range": "5 格",
+      "target": "單體",
+      "base_formula": "3d6+8",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Repose": {
+      "name": "沉靜",
+      "base_effect": "對目標施加<strong>睡眠</strong>。",
+      "challenge": "目標的魔法防禦",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "移除目標產生的所有標記。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Deep Meditation (70+)": {
+      "name": "深度冥想 (70+)"
+    },
+    "Addle": {
+      "name": "昏亂",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "觸發此能力的敵人",
+      "trigger": "在敵人使用的能力結算前一刻",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Riddle of Earth": {
+      "name": "金剛極意",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Hyoton": {
+      "name": "冰遁之術",
+      "challenge": "目標的魔法防禦",
+      "condition": "為忍術消耗3個以上的印",
+      "direct_hit": "額外造成4d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "2d6+12",
+      "base_effect": "dict"
+    },
+    "Red Magic": {
+      "name": "赤魔法",
+      "base_effect": "dict"
+    },
+    "Play III: The Spire": {
+      "name": "出卡 III：建築神之塔",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Life Surge": {
+      "name": "龍劍",
+      "limitations": "每階段一次",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Limit Break: Dragonsong Dive": {
+      "name": "極限技：蒼穹龍血",
+      "range": "5 格",
+      "target": "單體",
+      "trigger": "隨時使用",
+      "base_formula": "10d6 + 20",
+      "base_effect": "dict"
+    },
+    "Darkside": {
+      "name": "暗黑"
+    },
+    "Howling Fist": {
+      "name": "空鳴拳",
+      "base_effect": "對所有目標造成6點傷害。",
+      "cost": "3個脈輪",
+      "range": "與此角色相鄰的 3x3 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Mechanized Sharpshooter": {
+      "name": "機械神射手",
+      "description": "<p>你可以在自己的回合使用任意數量的瞬發能力。</p>"
+    },
+    "Summon Carbuncle": {
+      "name": "召喚寶石獸"
+    },
+    "Surecast": {
+      "name": "沉穩詠唱",
+      "base_effect": "直到此回合結束為止，無視所有移動效果。",
+      "limitations": "每階段一次",
+      "trigger": "能力結算前的瞬間"
+    },
+    "Interject": {
+      "name": "插言",
+      "limitations": "每階段一次",
+      "range": "1 格",
+      "target": "觸發此能力的敵人",
+      "base_effect": "dict"
+    },
+    "Hissatsu: Shinten": {
+      "name": "必殺劍·震天",
+      "base_effect": "對目標造成 12 傷害。",
+      "cost": "2 劍氣",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Verfire": {
+      "name": "赤火炎",
+      "condition": "處於赤火炎預備效果下",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "1d6 + 2",
+      "base_effect": "dict"
+    },
+    "Swiftcast": {
+      "name": "即刻詠唱",
+      "base_effect": "立即使用你的一項魔法能力。",
+      "limitations": "每階段一次",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Twin Snakes": {
+      "name": "雙掌打",
+      "challenge": "目標的防禦",
+      "condition": "處於盜龍身形效果下時",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Thermal Trap": {
+      "name": "熱能陷阱"
+    },
+    "Sen: Setsu": {
+      "name": "閃：雪"
+    },
+    "Mangetsu": {
+      "name": "滿月",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "base_effect": "dict"
+    },
+    "Yukikaze": {
+      "name": "雪風",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Limit Break: Teraflare": {
+      "name": "極限技：萬億核爆",
+      "range": "整張遭遇戰地圖",
+      "target": "範圍內所有敵人",
+      "trigger": "隨時使用",
+      "base_formula": "8d6 + 5",
+      "base_effect": "dict"
+    },
+    "Higanbana": {
+      "name": "彼岸花",
+      "base_effect": "對目標造成 1d6 + 5 傷害，並施加<strong>持續傷害(DOT)</strong> (6)。",
+      "challenge": "目標的防禦",
+      "condition": "1 個或更多閃",
+      "cost": "所有閃",
+      "direct_hit": "額外造成 8 傷害。",
+      "range": "3 格",
+      "target": "單體",
+      "base_formula": "1d6 + 5"
+    },
+    "Arm's Length": {
+      "name": "親疏自行",
+      "base_effect": "直到此回合結束為止，無視所有移動效果。",
+      "limitations": "每階段一次",
+      "trigger": "能力結算前的瞬間"
+    },
+    "Lightspeed": {
+      "name": "光速",
+      "base_effect": "立即使用你的一項魔法能力。",
+      "limitations": "每階段兩次"
+    },
+    "Limit Break: Vermillion Scourge": {
+      "name": "極限技：赤紅災變",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "trigger": "隨時使用",
+      "base_formula": "5d6",
+      "base_effect": "dict"
+    },
+    "Dokumori": {
+      "name": "毒盛",
+      "limitations": "每階段一次",
+      "range": "與此角色相鄰的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "base_effect": "dict"
+    },
+    "Intervention": {
+      "name": "干預",
+      "cost": "2 信念",
+      "range": "5 格",
+      "target": "1 名盟友",
+      "trigger": "另一名隊友受到傷害前的瞬間",
+      "base_effect": "dict"
+    },
+    "Suiton": {
+      "name": "水遁之術",
+      "base_effect": "對目標造成 3d6 + 12 傷害，並獲得<strong>影行</strong>。",
+      "challenge": "目標的魔法防禦",
+      "condition": "為忍術消耗3個以上的印",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "3d6 + 12",
+      "effects": "dict"
+    },
+    "Fuga": {
+      "name": "風雅",
+      "base_effect": "對所有目標造成10點傷害。",
+      "challenge": "目標的防禦",
+      "combo": "滿月或櫻花",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "與此角色相鄰的 3x3 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Sheltron": {
+      "name": "盾陣",
+      "cost": "2 信念",
+      "trigger": "即將受到傷害前",
+      "base_formula": "5d6",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Deathflare": {
+      "name": "死星核爆",
+      "condition": "處於龍神附體效果下",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當你使用龍神附體後結束回合時",
+      "base_formula": "1d6",
+      "base_effect": "dict"
+    },
+    "Edge of Darkness": {
+      "name": "暗黑鋒",
+      "base_effect": "對目標造成8點傷害，並獲得<strong>暗黑</strong>。",
+      "cost": "2 魔力(MP)",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Leg Sweep": {
+      "name": "掃腿",
+      "base_effect": "使目標陷入眩暈，持續至此回合結束。",
+      "limitations": "每階段一次",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Enhanced Enmity": {
+      "name": "仇恨提高",
+      "effects": "dict"
+    },
+    "Second Wind": {
+      "name": "內丹",
+      "base_effect": "恢復3d6 + 5點<strong>體力(HP)</strong>。",
+      "limitations": "每階段一次",
+      "trigger": "當任一角色結束其回合時",
+      "base_formula": "3d6 + 5"
+    },
+    "Samurai Combo: Getsu (Jinpu + Gekko)": {
+      "name": "武士連擊：月（陣風 + 月光）",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Elusive Jump": {
+      "name": "迴避跳躍",
+      "limitations": "每階段兩次",
+      "base_effect": "dict"
+    },
+    "Aetherial Shift": {
+      "name": "以太移位",
+      "base_effect": "移動最多 5 格。",
+      "limitations": "每階段一次"
+    },
+    "Hypercharge": {
+      "name": "超荷",
+      "base_effect": "獲得<strong>過熱</strong>，持續至你的下一個回合開始。",
+      "cost": "2點熱量",
+      "effects": "dict"
+    },
+    "Shukiho": {
+      "name": "修習"
+    },
+    "Rampart": {
+      "name": "鐵壁",
+      "limitations": "每階段一次",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Adloquium": {
+      "name": "鼓舞激勵之策",
+      "cost": "2 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "1d6 + 8",
+      "base_effect": "dict"
+    },
+    "Umbral Mastery": {
+      "name": "靈極精通"
+    },
+    "Unmend": {
+      "name": "傷殘",
+      "base_effect": "造成8點傷害，並對目標施加<strong>仇恨</strong>。",
+      "challenge": "目標的魔法防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "5 格",
+      "target": "單體"
+    },
+    "Shield Bash": {
+      "name": "盾牌猛擊",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Winged Glide": {
+      "name": "翔龍",
+      "base_effect": "移動至範圍內與目標相鄰的最近空格。",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "單體",
+      "trigger": "當任意角色開始其回合時"
+    },
+    "Enhanced Aethercharge": {
+      "name": "以太蓄能效果提高"
+    },
+    "Esuna": {
+      "name": "康復",
+      "base_effect": "移除目標自行選擇的1項弱化效果",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Shadowstride": {
+      "name": "暗影步",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Mage's Ballad": {
+      "name": "賢者的敘事謠",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Shadow Wall": {
+      "name": "暗影牆",
+      "limitations": "每階段一次",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Armor Crush": {
+      "name": "強甲破點突",
+      "base_effect": "對目標造成6點傷害。獲得2層風纏與1點忍氣。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Riposte Combo (Riposte + Zwerchhau)": {
+      "name": "回刺連擊（回刺 + 交擊斬）",
+      "base_effect": "對目標造成 3 點傷害。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Ten Chi Jin": {
+      "name": "天地人",
+      "base_effect": "dict"
+    },
+    "Ley Lines": {
+      "name": "黑魔紋",
+      "limitations": "每階段一次",
+      "range": "以目標為中心的3x3區域",
+      "target": "此角色佔據的1格",
+      "base_effect": "dict"
+    },
+    "Rescue": {
+      "name": "營救",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "1 名盟友",
+      "trigger": "當敵人開始或結束其回合時",
+      "base_effect": "dict"
+    },
+    "Play I: The Balance": {
+      "name": "出卡I：太陽神之衡",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Raptor's Fury": {
+      "name": "盜龍怒"
+    },
+    "Aerial Blast": {
+      "name": "大氣爆發",
+      "base_effect": "對所有目標造成 3 點傷害，並附加<strong>持續傷害(DOT)</strong> (8)。",
+      "range": "此寵物 10 格內的一處 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Mantra": {
+      "name": "真言",
+      "base_effect": "為所有目標恢復8點<strong>體力(HP)</strong>",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有恢復體力(HP)的盟友",
+      "trigger": "一名盟友恢復體力(HP)時"
+    },
+    "Vercure": {
+      "name": "赤治療",
+      "description": "<p>檢定：特殊（d20，暴擊）</p>",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "2d6 + 5",
+      "base_effect": "dict"
+    },
+    "Outburst / Astral Flare": {
+      "name": "迸裂 / 星極核爆",
+      "challenge": "目標的魔法防禦",
+      "cost": "2點魔力(MP)\n目標；範圍內所有敵人",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "base_effect": "dict"
+    },
+    "Sleep": {
+      "name": "催眠",
+      "base_effect": "對所有目標施加<strong>睡眠</strong>。",
+      "challenge": "目標的魔法防禦",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "移除所有目標產生的全部標記。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Veraero II": {
+      "name": "赤烈風",
+      "cost": "1 魔力(MP)",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "base_effect": "dict"
+    },
+    "Displacement": {
+      "name": "移轉",
+      "description": "<p>檢定：特殊（d20）</p>",
+      "limitations": "每階段一次，與交劍共用",
+      "range": "1 格",
+      "target": "1名敵人",
+      "trigger": "在你的回合中隨時使用",
+      "base_effect": "dict"
+    },
+    "Elixir Field": {
+      "name": "蒼氣炮",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "3d6 + 10",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Wide Volley": {
+      "name": "廣域群射",
+      "base_effect": "對所有目標造成10點傷害。",
+      "challenge": "目標的防禦",
+      "condition": "處於鷹眼效果下",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Feint": {
+      "name": "牽制",
+      "limitations": "每階段一次",
+      "range": "2 格",
+      "target": "觸發此能力的敵人",
+      "trigger": "在敵人使用的能力結算前一刻",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Hidden": {
+      "name": "隱遁"
+    },
+    "Manafication": {
+      "name": "魔元化",
+      "base_effect": "獲得<strong>魔法劍術</strong>",
+      "limitations": "每階段一次",
+      "trigger": "在你的回合中隨時使用"
+    },
+    "Enpi": {
+      "name": "燕飛",
+      "base_effect": "對目標造成7點傷害，並獲得1點<strong>劍氣</strong>。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "5 格",
+      "target": "單體"
+    },
+    "Ritual Weave": {
+      "name": "儀式編織",
+      "base_effect": "獲得1個<strong>印</strong>。"
+    },
+    "Repelling Shot": {
+      "name": "後跳射擊",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時",
+      "base_effect": "dict"
+    },
+    "Verflare": {
+      "name": "赤核爆",
+      "challenge": "目標的魔法防禦",
+      "cost": "1點魔力(MP)與3層魔元",
+      "direct_hit": "對目標額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Hissatsu: Yaten": {
+      "name": "必殺劍·夜天",
+      "cost": "1點劍氣",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Art of War": {
+      "name": "破陣法",
+      "base_effect": "對所有目標造成5點傷害。",
+      "cost": "1 魔力(MP)",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人"
+    },
+    "Oka": {
+      "name": "櫻花",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "base_effect": "dict"
+    },
+    "Goring Blade": {
+      "name": "瀝血劍",
+      "base_effect": "造成2d6 + 12點傷害，並對目標施加<strong>仇恨</strong>。",
+      "condition": "處於瀝血劍預備效果下",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "limitations": "每階段一次",
+      "target": "單體",
+      "base_formula": "2d6 + 12"
+    },
+    "Combo": {
+      "name": "連擊"
+    },
+    "Pet": {
+      "name": "寵物"
+    },
+    "Surging Tempest": {
+      "name": "戰場風暴"
+    },
+    "Collective Unconscious": {
+      "name": "命運之輪",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "trigger": "一名盟友受到傷害前的瞬間",
+      "base_effect": "dict"
+    },
+    "Death Blossom + Hakke Mujinsatsu": {
+      "name": "血雨飛花 + 八卦無刃殺",
+      "base_effect": "對所有目標造成13點傷害，並獲得2點忍氣。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人"
+    },
+    "Raise": {
+      "name": "復活",
+      "cost": "3 魔力(MP)",
+      "range": "5 格*",
+      "target": "1 名昏厥的角色",
+      "base_effect": "dict"
+    },
+    "Limit Break: Chimatsuri": {
+      "name": "極限技：血祭",
+      "base_effect": "對目標造成8d6+8點傷害，並獲得<strong>隱遁</strong>。",
+      "range": "1 格",
+      "target": "單體",
+      "trigger": "隨時使用",
+      "base_formula": "8d6+8"
+    },
+    "Inferno": {
+      "name": "地獄之火",
+      "base_effect": "對目標造成 13 點傷害。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Blizzard IV": {
+      "name": "冰澈",
+      "challenge": "目標的魔法防禦",
+      "condition": "處於靈極冰效果下",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Upheaval": {
+      "name": "動亂",
+      "base_effect": "對目標造成 15 點傷害。",
+      "limitations": "每階段一次",
+      "range": "1 格",
+      "target": "觸發動亂之能力的1個目標",
+      "trigger": "在你的回合中使用主要能力後立即觸發"
+    },
+    "Doton": {
+      "name": "土遁之術",
+      "condition": "為忍術消耗3個以上的印",
+      "range": "以目標為中心的5x5區域",
+      "target": "此角色佔據的1格",
+      "base_effect": "dict"
+    },
+    "Triplecast": {
+      "name": "三連詠唱",
+      "trigger": "你的回合開始時",
+      "base_effect": "dict"
+    },
+    "Lucid Dreaming": {
+      "name": "醒夢",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Drill": {
+      "name": "鑽頭",
+      "base_effect": "對目標造成3d6 + 10點傷害。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "在你的回合中隨時使用",
+      "base_formula": "3d6 + 10"
+    },
+    "Drakesbane": {
+      "name": "雲蒸龍變",
+      "base_effect": "對目標造成6點傷害。",
+      "condition": "處於雲蒸龍變預備效果下",
+      "range": "1 格",
+      "target": "單體",
+      "trigger": "隨時使用"
+    },
+    "Benefic II": {
+      "name": "福星",
+      "base_effect": "為目標恢復5d6 + 15點<strong>體力(HP)</strong>。",
+      "cost": "2 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "5d6 + 15"
+    },
+    "Fugetsu": {
+      "name": "風月"
+    },
+    "Kazematoi Edge": {
+      "name": "風纏之刃",
+      "base_effect": "立即使用<strong>旋風刃</strong>。",
+      "cost": "1 層風纏"
+    },
+    "Rain of Death": {
+      "name": "死亡箭雨",
+      "base_effect": "對所有目標造成8點傷害。",
+      "limitations": "每階段兩次，與失血箭共用次數",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Sacred Soil": {
+      "name": "野戰治療陣",
+      "cost": "1 層以太超流",
+      "limitations": "每階段一次",
+      "range": "以目標為中心的5x5區域",
+      "target": "此角色 10 格內的 1 格",
+      "trigger": "一名角色受到傷害前的瞬間",
+      "base_effect": "dict"
+    },
+    "Arm of the Destroyer": {
+      "name": "破壞神衝",
+      "base_effect": "對所有目標造成4點傷害，並賦予<strong>盜龍身形</strong>。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "effects": "dict"
+    },
+    "Unleash + Stalwart Soul": {
+      "name": "釋放 + 剛魂",
+      "challenge": "目標的魔法防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人",
+      "base_effect": "dict"
+    },
+    "Mana Balance: Black": {
+      "name": "魔元平衡：黑"
+    },
+    "Gauss Round": {
+      "name": "虹吸彈",
+      "base_effect": "對目標造成 13 點傷害。",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "隨時使用"
+    },
+    "Holy": {
+      "name": "神聖",
+      "base_effect": "對所有目標造成8點傷害，並使其陷入眩暈，直到本回合結束。",
+      "challenge": "目標的魔法防禦",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人"
+    },
+    "Limit Break: Doom of the Living": {
+      "name": "極限技：生者必滅",
+      "trigger": "你進行檢定後立即觸發",
+      "base_effect": "dict"
+    },
+    "Essential Dignity": {
+      "name": "先天稟賦",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時",
+      "base_formula": "3d6",
+      "base_effect": "dict"
+    },
+    "Limit Break: Angel Feathers": {
+      "name": "極限技：天使之羽",
+      "range": "整張遭遇戰地圖*",
+      "target": "範圍內所有友方冒險者",
+      "trigger": "隨時使用",
+      "base_formula": "5d6+12",
+      "base_effect": "dict"
+    },
+    "Pitch Perfect": {
+      "name": "完美音調",
+      "condition": "處於放浪神的小步舞曲的歌曲效果下時",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "trigger": "當任一角色結束其回合時",
+      "base_effect": "dict"
+    },
+    "Succor": {
+      "name": "士氣高揚之策",
+      "cost": "2 魔力(MP)",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "base_formula": "2d6 + 5",
+      "base_effect": "dict"
+    },
+    "Wildfire": {
+      "name": "野火",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Verstone": {
+      "name": "赤飛石",
+      "condition": "處於赤飛石預備效果下",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "3d6 + 8",
+      "base_effect": "dict"
+    },
+    "Enchanted Moulinet Combo (Enchanted Moulinet + Enchanted Moulinet Deux + Enchanted Moulinet Trois)": {
+      "name": "魔劃圓劍連擊（魔劃圓劍 + 魔劃圓劍 II + 魔劃圓劍 III）",
+      "base_effect": "對所有目標造成2d6 + 8點傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "3 黑魔元與 3 白魔元",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "與此角色相鄰的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "2d6 + 8"
+    },
+    "Dreadwyrm Trance": {
+      "name": "龍神附體",
+      "condition": "你已召喚寶石獸",
+      "base_effect": "dict"
+    },
+    "Manaward": {
+      "name": "魔罩",
+      "base_effect": "賦予5點<strong>體力(HP)</strong>的護盾。",
+      "limitations": "每階段一次"
+    },
+    "Overpower + Mythril Tempest": {
+      "name": "超壓斧 + 秘銀暴風",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Hallowed Ground": {
+      "name": "神聖領域",
+      "limitations": "每階段一次。",
+      "trigger": "在能力結算前立即使用。",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Thunderhead Ready": {
+      "name": "雷雲預備"
+    },
+    "Dissipation": {
+      "name": "轉化",
+      "condition": "你已召喚朝日小仙女",
+      "base_effect": "dict"
+    },
+    "Demolish": {
+      "name": "破碎拳",
+      "challenge": "目標的防禦",
+      "condition": "處於猛豹身形效果下",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Earthen Fury": {
+      "name": "大地之怒",
+      "base_effect": "對所有目標造成6點傷害。",
+      "range": "以此寵物為中心的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Play II: The Arrow": {
+      "name": "出卡II：放浪神之箭",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Berserk": {
+      "name": "狂暴",
+      "base_effect": "你的能力額外造成 4 點傷害，持續至本回合結束。",
+      "limitations": "每階段三次",
+      "effects": "dict"
+    },
+    "Riposte Combo (Riposte + Zwerchhau + Redoublement)": {
+      "name": "回刺連擊（回刺 + 交擊斬 + 連攻）",
+      "base_effect": "對目標造成5點傷害。",
+      "challenge": "目標的防禦",
+      "direct_hit": "對目標額外造成1d6點傷害。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Thunder III": {
+      "name": "暴雷",
+      "base_effect": "對目標造成4點傷害，並施加<strong>持續傷害(DOT)</strong>（6）。",
+      "condition": "處於雷雲預備效果下",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Flint Strike": {
+      "name": "爆裂腳",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "3d6 + 8",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Scatter": {
+      "name": "散碎",
+      "challenge": "目標的魔法防禦",
+      "condition": "你已在本回合執行過任何主要或次要行動",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "2d6 + 2",
+      "base_effect": "dict"
+    },
+    "Major Arcana": {
+      "name": "大奧秘卡"
+    },
+    "Play I: The Spear": {
+      "name": "出卡I：戰爭神之槍",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Deep Meditation": {
+      "name": "深度冥想"
+    },
+    "Detonator": {
+      "name": "起爆",
+      "condition": "你在本回合使用過野火",
+      "range": "10 格",
+      "target": "本回合被野火指定為目標的角色",
+      "trigger": "當你結束回合時",
+      "base_effect": "dict"
+    },
+    "Blizzard": {
+      "name": "冰結",
+      "challenge": "目標的魔法防禦",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Precious Brilliance": {
+      "name": "寶石耀",
+      "base_effect": "對所有目標造成10點傷害",
+      "challenge": "目標的魔法防禦",
+      "condition": "此能力具有由你的寵物決定的額外效果",
+      "cost": "3 魔力(MP)",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Lance Charge": {
+      "name": "猛槍",
+      "base_effect": "你的能力額外造成 4 點傷害，持續至本回合結束。",
+      "limitations": "每階段兩次",
+      "effects": "dict"
+    },
+    "Limit Break: Astral Stasis": {
+      "name": "極限技：星天開門",
+      "range": "整張遭遇戰地圖*",
+      "target": "範圍內所有友方冒險者",
+      "trigger": "隨時使用",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "The Beast Within": {
+      "name": "原初之獸"
+    },
+    "Provoke": {
+      "name": "挑釁",
+      "base_effect": "對目標施加<strong>仇恨</strong>。",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "觸發此能力的敵人",
+      "trigger": "敵人開始其回合時"
+    },
+    "Total Eclipse + Prominence": {
+      "name": "全蝕斬 + 日珥斬",
+      "base_effect": "對所有目標造成8點傷害，並施加<strong>仇恨</strong>。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人"
+    },
+    "Limit Break: Dark Force": {
+      "name": "極限技：暗黑之力",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Barrage": {
+      "name": "紛亂箭",
+      "condition": "此角色的回合",
+      "limitations": "每階段一次",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Cure": {
+      "name": "治療",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "2d6 + 5",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Malefic III": {
+      "name": "禍星",
+      "base_effect": "對目標造成8點傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Battle Litany": {
+      "name": "戰鬥連禱",
+      "base_effect": "賦予所有目標<strong>戰鬥連禱</strong>。",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "effects": "dict"
+    },
+    "Lady of Crowns": {
+      "name": "王冠之貴婦",
+      "base_effect": "為所有目標恢復15點<strong>體力(HP)</strong>。",
+      "limitations": "每階段一次，與王冠之領主共用",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友"
+    },
+    "Corps-a-corps": {
+      "name": "短兵相接",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "1名敵人",
+      "base_effect": "dict"
+    },
+    "Reprisal": {
+      "name": "雪仇",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人",
+      "trigger": "在2格內的敵人使用的能力結算前立即發動",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Contre Sixte": {
+      "name": "六分反擊",
+      "base_effect": "對所有目標造成8點傷害。",
+      "limitations": "每階段一次",
+      "range": "以此角色10格內的一名敵人為中心的5x5區域",
+      "target": "範圍內所有敵人"
+    },
+    "Huton": {
+      "name": "風遁之術",
+      "base_effect": "對所有目標造成2d6 + 15點傷害，並獲得<strong>影行者</strong>。",
+      "challenge": "目標的魔法防禦",
+      "condition": "為忍術消耗3個以上的印",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "2d6 + 15",
+      "effects": "dict"
+    },
+    "Walking Dead": {
+      "name": "行屍走肉"
+    },
+    "Bio II": {
+      "name": "猛毒菌",
+      "base_effect": "對目標造成8點傷害，並施加<strong>持續傷害(DOT)</strong>（10）。",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Holmgang": {
+      "name": "死鬥",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Heel": {
+      "name": "跟隨",
+      "base_effect": "將你的寵物移動至此角色佔據的1格。",
+      "range": "整張遭遇戰地圖",
+      "target": "你的寵物"
+    },
+    "Embrace": {
+      "name": "仙光的擁抱",
+      "base_effect": "恢復目標 6 點<strong>體力(HP)</strong>。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Whispering Dawn": {
+      "name": "仙光的低語",
+      "base_effect": "賦予所有目標<strong>再生</strong> (6)。",
+      "limitations": "每階段一次",
+      "range": "以此寵物為中心的 5x5 區域",
+      "target": "範圍內所有盟友"
+    },
+    "Limit Break: Sagittarius Arrow": {
+      "name": "極限技：射手天箭",
+      "target": "範圍內所有敵人",
+      "trigger": "隨時使用",
+      "base_formula": "10d6 + 13",
+      "base_effect": "dict"
+    },
+    "Consecutive Invocation": {
+      "name": "連續祈喚"
+    },
+    "Dream Within a Dream": {
+      "name": "夢幻三段",
+      "limitations": "每階段一次",
+      "range": "1 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時",
+      "base_effect": "dict"
+    },
+    "Lord of Crowns": {
+      "name": "王冠之領主",
+      "base_effect": "對所有目標造成10點傷害。",
+      "limitations": "每階段一次，與王冠之貴婦共用",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人"
+    },
+    "Embolden": {
+      "name": "鼓勵",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "trigger": "隨時使用",
+      "base_effect": "dict"
+    },
+    "Third Eye": {
+      "name": "心眼",
+      "limitations": "每階段一次",
+      "trigger": "在10格內的敵人使用的能力結算前立即發動",
+      "base_effect": "dict"
+    },
+    "Royal Authority": {
+      "name": "王權劍",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Medica II": {
+      "name": "醫濟",
+      "cost": "2 魔力(MP)",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "base_formula": "2d6 + 8",
+      "base_effect": "dict"
+    },
+    "The Forbidden Chakra": {
+      "name": "陰陽鬥氣斬",
+      "base_effect": "對目標造成 15 點傷害。",
+      "cost": "3個脈輪",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Chain Stratagem": {
+      "name": "連環計",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "1名敵人",
+      "trigger": "在你的回合中隨時使用",
+      "base_effect": "dict"
+    },
+    "Dragoon Combo III (Doom Spike + Sonic Thrust)": {
+      "name": "龍騎士連擊III（死天槍 + 音速刺）",
+      "base_effect": "對所有目標造成15點傷害，並獲得<strong>龍槍</strong>。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成4d6點傷害。",
+      "range": "與此角色相鄰的 3x3 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Jolt": {
+      "name": "震盪",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Rockbreaker": {
+      "name": "地烈勁",
+      "base_effect": "對所有目標造成6點傷害，並獲得<strong>魔猿身形</strong>。",
+      "challenge": "目標的防禦",
+      "condition": "處於猛豹身形效果下",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "effects": "dict"
+    },
+    "Limit Break: Last Bastion": {
+      "name": "極限技：銅牆鐵盾",
+      "trigger": "在1名或更多友方冒險者受到傷害前的瞬間",
+      "base_effect": "dict"
+    },
+    "Piercing Talon": {
+      "name": "貫穿尖",
+      "base_effect": "對目標造成 13 點傷害。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "5 格",
+      "target": "單體"
+    },
+    "Fuka": {
+      "name": "風花"
+    },
+    "Limit Break: Meteor": {
+      "name": "極限技：隕石流星",
+      "base_effect": "對所有目標造成8d6 + 4點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "trigger": "隨時使用",
+      "base_formula": "8d6 + 4"
+    },
+    "Summon Egi": {
+      "name": "召喚亞靈神",
+      "cost": "1個寶石奧秘",
+      "trigger": "當你的寵物開始其回合時",
+      "base_effect": "dict"
+    },
+    "Smoking Barrel": {
+      "name": "槍管生煙",
+      "condition": "處於過熱效果下時",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Engagement": {
+      "name": "交劍",
+      "base_effect": "對目標造成5點傷害。",
+      "limitations": "每階段一次，與移轉共用",
+      "range": "1 格",
+      "target": "1名敵人",
+      "trigger": "在你的回合中隨時使用"
+    },
+    "Gravity": {
+      "name": "重力",
+      "base_effect": "對所有目標造成4點傷害",
+      "challenge": "目標的魔法防禦",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Storm's Path": {
+      "name": "暴風斬",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Dualcast": {
+      "name": "連續詠唱"
+    },
+    "Divine Veil": {
+      "name": "聖光幕",
+      "base_effect": "為所有目標賦予具有6點<strong>體力(HP)</strong>的護盾。",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友"
+    },
+    "Sturdy Shield": {
+      "name": "堅固之盾",
+      "limitations": "每輪一次",
+      "trigger": "以你為目標的能力完成能力檢定後立即使用",
+      "base_effect": "dict"
+    },
+    "Formless Fist": {
+      "name": "無相身"
+    },
+    "Fire III": {
+      "name": "爆炎",
+      "base_effect": "對目標造成10點傷害，並獲得<strong>星極火</strong>。",
+      "challenge": "目標的魔法防禦",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "effects": "dict"
+    },
+    "Riddle of Fire": {
+      "name": "紅蓮極意",
+      "base_effect": "你的主要能力額外造成1d6點傷害，持續至本回合結束。",
+      "limitations": "每階段一次"
+    },
+    "Sen: Ka": {
+      "name": "閃：花"
+    },
+    "Aetherdam (Summoner)": {
+      "name": "以太屏障（召喚師）"
+    },
+    "Plenary Indulgence": {
+      "name": "全大赦",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Regen": {
+      "name": "再生",
+      "base_effect": "賦予目標<strong>復甦</strong>（8）。",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Gemshine": {
+      "name": "寶石耀",
+      "base_effect": "對目標造成 15 點傷害。",
+      "challenge": "目標的魔法防禦",
+      "condition": "此能力具有由你的寵物決定的額外效果",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成4d6點傷害。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Physick (Scholar)": {
+      "name": "醫術（學者）",
+      "base_effect": "為目標恢復2d6 + 4點<strong>體力(HP)</strong>。",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "2d6 + 4"
+    },
+    "Cure III": {
+      "name": "愈療",
+      "base_effect": "為所有目標恢復5d6 + 10點<strong>體力(HP)</strong>。",
+      "cost": "3 魔力(MP)",
+      "range": "以此角色 10 格內的一名盟友為中心的 5x5 區域",
+      "target": "範圍內所有盟友",
+      "base_formula": "5d6 + 10"
+    },
+    "Perfect Balance": {
+      "name": "震腳",
+      "limitations": "每階段兩次",
+      "trigger": "在你的回合中隨時使用",
+      "base_effect": "dict"
+    },
+    "Ascend": {
+      "name": "生辰",
+      "cost": "3 魔力(MP)",
+      "range": "5 格*",
+      "target": "1 名昏厥的角色",
+      "base_effect": "dict"
+    },
+    "Sen: Getsu": {
+      "name": "閃：月"
+    },
+    "Souleater": {
+      "name": "噬魂斬",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Windweaver": {
+      "name": "馭風者"
+    },
+    "Holy Spirit": {
+      "name": "聖靈",
+      "base_effect": "對目標造成6點傷害，並施加<strong>仇恨</strong>。",
+      "cost": "2 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Fight or Flight": {
+      "name": "戰逃反應",
+      "limitations": "每階段一次",
+      "trigger": "在你的回合中隨時使用",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Dragoon Combo (Vorpal Thrust + Full Thrust)": {
+      "name": "龍騎士連擊（貫通刺 + 直刺）",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Hagakure": {
+      "name": "葉隱",
+      "condition": "1 個或更多閃",
+      "trigger": "隨時使用",
+      "base_effect": "dict"
+    },
+    "True Strike": {
+      "name": "正拳",
+      "challenge": "目標的防禦",
+      "condition": "處於盜龍身形效果下時",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Verthunder II": {
+      "name": "赤震雷",
+      "cost": "1 魔力(MP)",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "base_effect": "dict"
+    },
+    "Sign Weaver": {
+      "name": "結印者"
+    },
+    "Battle Voice": {
+      "name": "戰鬥之聲",
+      "base_effect": "賦予所有目標<strong>戰鬥之聲</strong>。",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "trigger": "隨時使用",
+      "effects": "dict"
+    },
+    "Midare Setsugekka": {
+      "name": "紛亂雪月花",
+      "description": "<p>檢定：特殊（d20，暴擊）</p>",
+      "base_effect": "對目標造成7d6 + 25點傷害。",
+      "condition": "3個或更多閃",
+      "cost": "所有閃",
+      "range": "1 格",
+      "target": "單體",
+      "base_formula": "7d6 + 25"
+    },
+    "Divine Might": {
+      "name": "神聖魔法效果提高"
+    },
+    "Ruin II": {
+      "name": "毀壞",
+      "base_effect": "對目標造成6點傷害。",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Earthly Dominance / Giant Dominance": {
+      "name": "地星主宰 / 巨星主宰"
+    },
+    "Thin Air": {
+      "name": "無中生有",
+      "limitations": "每階段兩次",
+      "trigger": "即將使用消耗魔力(MP)的能力時",
+      "base_effect": "dict"
+    },
+    "Celestial Opposition": {
+      "name": "天星衝日",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "trigger": "隨時使用",
+      "base_formula": "2d6 + 3",
+      "base_effect": "dict"
+    },
+    "Shield Lob": {
+      "name": "投盾",
+      "base_effect": "對目標造成4點傷害，並施加<strong>仇恨</strong>。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "5 格",
+      "target": "單體"
+    },
+    "Aetherdam (Scholar)": {
+      "name": "以太儲蓄（學者）"
+    },
+    "Enhanced Enochian": {
+      "name": "天語效果提高"
+    },
+    "Onslaught": {
+      "name": "猛攻",
+      "limitations": "每階段兩次",
+      "range": "5 格",
+      "target": "1名敵人",
+      "base_effect": "dict"
+    },
+    "Samurai Combo: Ka (Shifu + Kasha)": {
+      "name": "武士連擊：花（士風 + 花車）",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成5點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_formula": "1d6 + 5",
+      "base_effect": "dict"
+    },
+    "Hissatsu: Gyoten": {
+      "name": "必殺劍·曉天",
+      "cost": "1點劍氣",
+      "range": "5 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Dragonfire Dive": {
+      "name": "龍炎衝",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "limitations": "每階段一次",
+      "range": "此角色5格內的3x3區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "3d6 + 8",
+      "base_effect": "dict"
+    },
+    "Opo-Opo's Fury": {
+      "name": "魔猿怒"
+    },
+    "Thrill of Battle": {
+      "name": "戰慄",
+      "limitations": "每階段一次",
+      "trigger": "即將受到傷害前",
+      "base_formula": "2d6 + 4",
+      "base_effect": "dict"
+    },
+    "Blizzard III": {
+      "name": "冰封",
+      "base_effect": "對目標造成10點傷害，並賦予自身<strong>靈極冰</strong>。",
+      "challenge": "目標的魔法防禦",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "effects": "dict"
+    },
+    "Blizzard II": {
+      "name": "冰冻",
+      "base_effect": "對所有目標造成6點傷害，並賦予自身<strong>靈極冰</strong>",
+      "challenge": "目標的魔法防禦",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "effects": "dict"
+    },
+    "Martial Forms": {
+      "name": "身形"
+    },
+    "Radiant Aegis": {
+      "name": "守護之光",
+      "base_effect": "賦予目標可吸收 2 點<strong>體力(HP)</strong>傷害的護盾。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Rook Overdrive": {
+      "name": "超檔車式炮塔",
+      "base_effect": "對目標造成 12 點傷害，然後將你的機械從遭遇戰地圖上移除。",
+      "condition": "你的機械位於遭遇戰地圖上時",
+      "range": "距離你的機械10格內",
+      "target": "單體",
+      "trigger": "隨時使用"
+    },
+    "Broil II": {
+      "name": "魔炎法",
+      "base_effect": "對目標造成 13 點傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Spirits Within": {
+      "name": "深奧之靈",
+      "limitations": "每階段兩次。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Four-Point Fury": {
+      "name": "四面腳",
+      "base_effect": "對所有目標造成8點傷害，並賦予自身<strong>豹形</strong>。",
+      "challenge": "目標的防禦",
+      "condition": "處於盜龍身形效果下時",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "effects": "dict"
+    },
+    "Verthunder": {
+      "name": "赤閃雷",
+      "challenge": "目標的魔法防禦",
+      "condition": "你本回合尚未執行任何主要或次要行動",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Afflatus Solace": {
+      "name": "安慰之心",
+      "base_effect": "恢復目標10點<strong>體力(HP)</strong>。",
+      "cost": "1 朵治療百合",
+      "range": "10 格",
+      "trigger": "當任一角色結束其回合時\n目標；單體"
+    },
+    "Shadow Walker": {
+      "name": "影行"
+    },
+    "Flare": {
+      "name": "核爆",
+      "challenge": "目標的魔法防禦",
+      "cost": "所有魔力(MP)",
+      "direct_hit": "對目標額外造成5d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "4d6 + 20",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Trick Attack": {
+      "name": "攻其不備",
+      "condition": "處於隱遁效果下。",
+      "range": "1 格",
+      "target": "單體",
+      "trigger": "隨時使用",
+      "base_formula": "5d6",
+      "base_effect": "dict"
+    },
+    "Magicked Swordplay": {
+      "name": "魔法劍術"
+    },
+    "Head Graze": {
+      "name": "傷頭",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "觸發此能力的敵人",
+      "base_effect": "dict"
+    },
+    "Hellfrog Medium": {
+      "name": "通靈之術·大蝦蟆",
+      "base_effect": "對所有目標造成13點傷害。",
+      "cost": "2點忍氣",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Tornado Kick": {
+      "name": "鬥魂旋風腳",
+      "base_effect": "對所有目標造成5d6 + 10點傷害。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "5d6 + 10"
+    },
+    "Throwing Dagger": {
+      "name": "飛刀",
+      "base_effect": "對目標造成18點傷害，並獲得2點忍氣。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "5 格",
+      "target": "單體"
+    },
+    "Indomitability": {
+      "name": "不屈不撓之策",
+      "cost": "1 層以太超流",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "trigger": "當任一角色結束其回合時",
+      "base_effect": "dict"
+    },
+    "Assize": {
+      "name": "法令",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人與盟友",
+      "base_effect": "dict"
+    },
+    "Thunderclap": {
+      "name": "雷光石火",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Bardsong": {
+      "name": "吟遊戰歌"
+    },
+    "Rook Autoturret": {
+      "name": "車式浮空炮",
+      "base_effect": "dict"
+    },
+    "Vengeance": {
+      "name": "復仇",
+      "limitations": "每階段一次",
+      "trigger": "即將受到傷害前",
+      "base_effect": "dict"
+    },
+    "Summon Bahamut": {
+      "name": "龍神召喚",
+      "condition": "你已召喚寶石獸，且未持有任何寶石奧秘",
+      "base_effect": "dict"
+    },
+    "Stone IV": {
+      "name": "崩石",
+      "base_effect": "對目標造成8點傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Living Dead": {
+      "name": "行屍走肉",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Kenki Mastery": {
+      "name": "劍氣精通"
+    },
+    "Swift of Hand": {
+      "name": "手疾眼快"
+    },
+    "Stellar Detonation": {
+      "name": "星體爆轟",
+      "range": "以你的地星區域為中心的7x7格區域",
+      "target": "範圍內所有敵人與盟友",
+      "trigger": "隨時使用",
+      "base_effect": "dict"
+    },
+    "Limit Break: Land Waker": {
+      "name": "極限技：原初大地",
+      "trigger": "在1名或更多友方冒險者受到傷害前的瞬間",
+      "base_effect": "dict"
+    },
+    "Tenka Goken": {
+      "name": "天下五劍",
+      "base_effect": "對所有目標造成16點傷害。",
+      "challenge": "目標的防禦",
+      "condition": "2個或更多的閃",
+      "cost": "所有閃",
+      "direct_hit": "額外造成4d6點傷害。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人"
+    },
+    "The Wanderer's Minuet": {
+      "name": "放浪神的小步舞曲",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Mug": {
+      "name": "奪取",
+      "limitations": "每階段一次",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Requiescat": {
+      "name": "安魂祈禱",
+      "limitations": "每階段一次",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Solar and Lunar Mastery": {
+      "name": "陰陽精通"
+    },
+    "Minstrel's Refrain": {
+      "name": "吟遊詩人的疊句",
+      "base_effect": "dict"
+    },
+    "Aero II": {
+      "name": "烈風",
+      "base_effect": "對目標造成4點傷害，並施加<strong>持續傷害(DOT)</strong>（6）。",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Energy Drain + Ruin IV": {
+      "name": "能量吸收 + 毀蕩",
+      "limitations": "每階段一次，與能量抽取 + 毀蕩共用",
+      "target": "範圍內所有敵人",
+      "trigger": "當任一角色結束其回合時",
+      "base_effect": "dict"
+    },
+    "Raw Intuition": {
+      "name": "原初的直覺",
+      "limitations": "每階段一次",
+      "trigger": "以你為目標的能力完成能力檢定後立即使用",
+      "base_effect": "dict"
+    },
+    "Inner Strength": {
+      "name": "內力"
+    },
+    "Enochian": {
+      "name": "天語"
+    },
+    "Mana Balance: White": {
+      "name": "魔元平衡：白"
+    },
+    "Aeolian Edge": {
+      "name": "旋風刃",
+      "base_effect": "對目標造成4點傷害，並獲得1點忍氣。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Scathe": {
+      "name": "崩潰",
+      "base_effect": "對目標造成8點傷害。",
+      "cost": "1 魔力(MP)",
+      "range": "10格",
+      "target": "單體"
+    },
+    "Brotherhood": {
+      "name": "義結金蘭",
+      "base_effect": "dict"
+    },
+    "The Warden's Paean": {
+      "name": "光陰神的禮讚凱歌",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Resurrection (Summoner)": {
+      "name": "復生（召喚師）",
+      "cost": "3 魔力(MP)",
+      "range": "5 格*",
+      "target": "1 名昏厥的角色",
+      "base_effect": "dict"
+    },
+    "Demi-Bahamut": {
+      "name": "巴哈姆特之靈"
+    },
+    "Reassemble": {
+      "name": "整備",
+      "limitations": "每階段一次",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Abyssal Drain": {
+      "name": "吸血深淵",
+      "challenge": "目標的魔法防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "limitations": "每階段一次，與精雕怒斬共用",
+      "range": "以此角色10格內的一名敵人為中心的5x5區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "2d6 + 6",
+      "base_effect": "dict"
+    },
+    "Synastry": {
+      "name": "星位合圖",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "1 名盟友",
+      "trigger": "即將有一名盟友恢復體力(HP)時",
+      "base_effect": "dict"
+    },
+    "Ninjutsu": {
+      "name": "忍術",
+      "condition": "擁有 1 個以上的印，且未處於忍術冷卻效果下",
+      "cost": "所有印",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Umbral Soul": {
+      "name": "靈極魂",
+      "condition": "未處於星極火效果下",
+      "limitations": "每階段一次",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Foul": {
+      "name": "穢濁",
+      "challenge": "目標的魔法防禦",
+      "cost": "1層通曉",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "base_effect": "dict"
+    },
+    "Emergency Tactics": {
+      "name": "應急戰術",
+      "limitations": "每階段兩次",
+      "range": "10 格",
+      "target": "觸發應急戰術的能力在範圍內的所有目標",
+      "trigger": "你使用賦予護盾的能力前的瞬間",
+      "base_effect": "dict"
+    },
+    "Play II: The Bole": {
+      "name": "出卡II：世界樹之幹",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Katon": {
+      "name": "火遁之術",
+      "base_effect": "對所有目標造成3d6 + 20點傷害。",
+      "challenge": "目標的魔法防禦",
+      "condition": "忍術消耗了2個或更多的印",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "3d6 + 20"
+    },
+    "Play III: The Ewer": {
+      "name": "出卡III：河流神之瓶",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Ninjutsu Cooldown": {
+      "name": "忍術冷卻"
+    },
+    "Tactician": {
+      "name": "策動",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Enhanced Enpi": {
+      "name": "燕飛效果提高"
+    },
+    "Salted Earth": {
+      "name": "腐穢大地",
+      "limitations": "每階段一次",
+      "range": "以目標為中心的5x5區域",
+      "target": "此角色佔據的1格",
+      "base_effect": "dict"
+    },
+    "Limit Break: Final Heaven": {
+      "name": "極限技：最終天堂",
+      "base_effect": "立即執行一次主要行動。",
+      "trigger": "隨時使用"
+    },
+    "Sentinel": {
+      "name": "預警",
+      "limitations": "每階段一次",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Blackblood": {
+      "name": "暗血"
+    },
+    "Bloodletter": {
+      "name": "失血箭",
+      "base_effect": "對目標造成8點傷害。",
+      "limitations": "每階段兩次，與死亡箭雨共用次數",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Snap Punch": {
+      "name": "崩拳",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Bootshine": {
+      "name": "連擊",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Bloodspiller": {
+      "name": "血濺",
+      "base_effect": "對目標造成2d6 + 5點傷害。",
+      "cost": "2點暗血",
+      "range": "1 格",
+      "target": "單體",
+      "trigger": "在你的回合中隨時使用",
+      "base_formula": "2d6 + 5"
+    },
+    "Geirskogul": {
+      "name": "武神槍",
+      "limitations": "每階段一次",
+      "range": "與此角色相鄰的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Hissatsu: Kyuten": {
+      "name": "必殺劍·九天",
+      "base_effect": "對所有目標造成8點傷害。",
+      "cost": "2 劍氣",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人"
+    },
+    "Circle of Scorn": {
+      "name": "厄運流轉",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "limitations": "每階段一次。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人",
+      "base_effect": "dict"
+    },
+    "Decimate": {
+      "name": "地毀人亡",
+      "challenge": "目標的防禦",
+      "cost": "2點暴怒",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "2d6 + 8",
+      "base_effect": "dict"
+    },
+    "Raging Strikes": {
+      "name": "猛者強擊",
+      "base_effect": "你的主要能力額外造成5點傷害，持續至本回合結束。",
+      "limitations": "每階段兩次",
+      "effects": "dict"
+    },
+    "Astral Fire": {
+      "name": "星極火"
+    },
+    "Iron Jaws": {
+      "name": "伶牙俐齒",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Shade Shift": {
+      "name": "殘影",
+      "limitations": "每階段一次",
+      "trigger": "以你為目標的能力完成能力檢定後立即使用",
+      "base_effect": "dict"
+    },
+    "The Blackest Night": {
+      "name": "至黑之夜",
+      "cost": "2 魔力(MP)",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "1 名盟友",
+      "trigger": "在你的回合中隨時使用",
+      "base_effect": "dict"
+    },
+    "Deployment Tactics": {
+      "name": "展開戰術",
+      "limitations": "每階段一次",
+      "range": "以護盾觸發展開戰術的角色為中心的5x5區域",
+      "trigger": "當你使用單體能力賦予一名角色護盾時",
+      "base_effect": "dict"
+    },
+    "Tetragrammaton": {
+      "name": "神名",
+      "base_effect": "為目標恢復20點<strong>體力(HP)</strong>。",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Primal Egi": {
+      "name": "蠻神之靈"
+    },
+    "Low Blow": {
+      "name": "下踢",
+      "base_effect": "使目標陷入眩暈，持續至此回合結束。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Auto Crossbow": {
+      "name": "自動弩",
+      "base_effect": "對所有目標造成10點傷害。",
+      "challenge": "目標的防禦",
+      "condition": "處於過熱效果下時",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "與此角色相鄰的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Physick (Summoner)": {
+      "name": "醫術（召喚師）",
+      "base_effect": "恢復目標 6 點<strong>體力(HP)</strong>。",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Asylum": {
+      "name": "庇護所",
+      "limitations": "每階段一次",
+      "range": "以目標為中心的5x5區域",
+      "target": "此角色 10 格內的 1 格",
+      "trigger": "在你的回合中隨時使用",
+      "base_effect": "dict"
+    },
+    "Dismantle": {
+      "name": "武裝解除",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "1 名盟友",
+      "trigger": "一名盟友受到傷害前的瞬間",
+      "base_effect": "dict"
+    },
+    "Equilibrium": {
+      "name": "泰然自若",
+      "base_effect": "恢復2d6 + 4點<strong>體力(HP)</strong>。",
+      "limitations": "每階段一次",
+      "base_formula": "2d6 + 4"
+    },
+    "Masterful Blitz": {
+      "name": "必殺技",
+      "condition": "1 個或更多獸之脈輪",
+      "cost": "所有獸之脈輪與陰陽鬥氣",
+      "trigger": "在你的回合中隨時使用",
+      "base_effect": "dict"
+    },
+    "Quietus": {
+      "name": "寂滅",
+      "base_effect": "對所有目標造成1d6 + 3點傷害。",
+      "cost": "2點暗血",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "trigger": "在你的回合中隨時使用",
+      "base_formula": "1d6 + 3"
+    },
+    "Enchanted Riposte Combo (Enchanted Riposte + Enchanted Zwerchhau)": {
+      "name": "魔回刺連擊（魔回刺 + 魔交擊斬）",
+      "base_effect": "對目標造成2d6 + 10點傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "3 黑魔元與 3 白魔元",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_formula": "2d6 + 10"
+    },
+    "Fell Cleave": {
+      "name": "裂石飛環",
+      "base_effect": "對目標造成 3d6 + 12 傷害，並使其陷入<strong>仇恨</strong>狀態。",
+      "challenge": "目標的防禦",
+      "cost": "2點暴怒",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_formula": "3d6 + 12"
+    },
+    "Carve and Spit": {
+      "name": "精雕怒斬",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "limitations": "每階段一次，與吸血深淵共用",
+      "range": "1 格",
+      "target": "單體",
+      "base_formula": "3d6 + 15",
+      "base_effect": "dict"
+    },
+    "Sect Mastery": {
+      "name": "教派精通"
+    },
+    "Heated Clean Shot": {
+      "name": "熱狙擊彈",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Heavy Shot": {
+      "name": "強力射擊",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Infuriate": {
+      "name": "戰嚎",
+      "base_effect": "獲得 2 點怒氣",
+      "limitations": "每階段一次"
+    },
+    "Oath Mastery": {
+      "name": "忠義精通"
+    },
+    "Earth's Reply": {
+      "name": "金剛周天",
+      "base_effect": "為所有目標恢復 8 <strong>體力(HP)</strong>。",
+      "condition": "處於金剛周天預備效果下",
+      "range": "以此角色為中心的 3x3 區域",
+      "target": "範圍內所有盟友",
+      "trigger": "隨時使用"
+    },
+    "Bhavacakra": {
+      "name": "六道輪迴",
+      "base_effect": "對目標造成 15 點傷害。",
+      "cost": "2點忍氣",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Dragon Kick": {
+      "name": "雙龍腳",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Mirage Dive": {
+      "name": "幻象衝",
+      "base_effect": "對目標造成 13 點傷害。",
+      "condition": "處於幻象衝預備效果下",
+      "range": "5 格",
+      "target": "單體",
+      "trigger": "隨時使用"
+    },
+    "Carbuncle": {
+      "name": "寶石獸"
+    },
+    "Fang and Claw / Wheeling Thrust": {
+      "name": "龍牙龍爪 / 龍尾大迴旋",
+      "condition": "處於龍牙龍爪／龍尾大迴旋預備效果下",
+      "range": "1 格",
+      "target": "單體",
+      "trigger": "隨時使用",
+      "base_formula": "2d6",
+      "base_effect": "dict"
+    },
+    "Foot Graze": {
+      "name": "傷足",
+      "base_effect": "無。",
+      "challenge": "目標的防禦",
+      "direct_hit": "使目標陷入<strong>止步</strong>狀態，持續至本回合結束。",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "觸發此能力的敵人",
+      "trigger": "敵人移動前的瞬間"
+    },
+    "Inner Release": {
+      "name": "原初的解放",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Umbral Ice": {
+      "name": "靈極冰"
+    },
+    "Dark Mind": {
+      "name": "棄明投暗",
+      "limitations": "每階段一次",
+      "trigger": "即將受到能力造成的傷害之前",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Ruin III / Astral Impulse": {
+      "name": "毀蕩／星極脈衝",
+      "challenge": "目標的魔法防禦",
+      "cost": "1 魔力(MP)",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Fire IV": {
+      "name": "熾炎",
+      "challenge": "目標的魔法防禦",
+      "condition": "處於星極火效果下",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Mana Stack": {
+      "name": "魔元"
+    },
+    "Warrior Combo (Heavy Swing + Maim)": {
+      "name": "戰士連擊（重劈 + 凶殘裂）",
+      "challenge": "目標的防禦",
+      "combo": "暴風斬或暴風碎",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Arrow Flurry": {
+      "name": "亂箭齊發"
+    },
+    "Dark Missionary": {
+      "name": "暗黑佈道",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "base_effect": "dict"
+    },
+    "Heat Blast": {
+      "name": "熱衝擊",
+      "challenge": "目標的防禦",
+      "condition": "處於過熱效果下時",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Dark Arts": {
+      "name": "暗技"
+    },
+    "Dragoon Combo II (Disembowel + Chaos Thrust)": {
+      "name": "龍騎士連擊II（開膛槍 + 櫻花怒放）",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Jump": {
+      "name": "跳躍",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 5d6 傷害。",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "單體",
+      "base_formula": "5d6 + 18",
+      "base_effect": "dict"
+    },
+    "Meditate": {
+      "name": "默想",
+      "trigger": "當你結束回合時",
+      "base_effect": "dict"
+    },
+    "Paladin Combo (Fast Blade + Riot Blade)": {
+      "name": "騎士連擊（先鋒劍 + 暴亂劍）",
+      "challenge": "目標的防禦",
+      "combo": "王權劍",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Medica": {
+      "name": "醫治",
+      "base_effect": "為所有目標恢復 2d6 + 8 <strong>體力(HP)</strong>。",
+      "cost": "2 魔力(MP)",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "base_formula": "2d6 + 8"
+    },
+    "Cover": {
+      "name": "保護",
+      "cost": "2 信念",
+      "limitations": "每階段一次。。",
+      "range": "5 格",
+      "target": "1 名盟友",
+      "trigger": "一名盟友受到傷害前的瞬間",
+      "base_effect": "dict"
+    },
+    "Riposte": {
+      "name": "回刺",
+      "base_effect": "對目標造成2點傷害。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成2點傷害。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Raiton": {
+      "name": "雷遁之術",
+      "base_effect": "對目標造成4d6 + 16點傷害。",
+      "challenge": "目標的魔法防禦",
+      "condition": "施展忍術時消耗 2 個以上的印",
+      "direct_hit": "額外造成4d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "4d6 + 16"
+    },
+    "Energy Drain (Scholar)": {
+      "name": "能量吸收（學者）",
+      "cost": "1 層以太超流",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時",
+      "base_effect": "dict"
+    },
+    "Hot Shot": {
+      "name": "熱彈",
+      "base_effect": "對目標造成 20 傷害，並獲得 2 層<strong>電能充能</strong>。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成4d6點傷害。",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Thunder IV": {
+      "name": "霹雷",
+      "base_effect": "對所有目標造成 2 點傷害，並附加<strong>持續傷害(DOT)</strong> (6)。",
+      "condition": "處於雷雲預備效果下",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Manafont": {
+      "name": "魔泉",
+      "condition": "處於星極火效果下",
+      "limitations": "每階段一次",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Cure II": {
+      "name": "救療",
+      "base_effect": "為目標恢復 5d6 + 18 <strong>體力(HP)</strong>。",
+      "cost": "2 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "5d6 + 18"
+    },
+    "Akh Morn": {
+      "name": "死亡輪迴",
+      "base_effect": "對所有目標造成 20 點傷害。",
+      "condition": "僅限結算龍神迸發後",
+      "range": "此寵物 10 格內的一處 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Shake It Off": {
+      "name": "擺脫",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "base_effect": "dict"
+    },
+    "Freeze": {
+      "name": "玄冰",
+      "base_effect": "對所有目標造成 13 點傷害，並獲得 3 個靈極心。",
+      "challenge": "目標的魔法防禦",
+      "condition": "處於靈極冰效果下",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Aspected Helios": {
+      "name": "陽星相位",
+      "cost": "2 魔力(MP)",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "base_formula": "1d6 + 2",
+      "base_effect": "dict"
+    },
+    "Fey Illumination": {
+      "name": "異想的幻光",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Blood Weapon Mastery": {
+      "name": "嗜血精通"
+    },
+    "Fire II": {
+      "name": "烈炎",
+      "base_effect": "對所有目標造成 6 點傷害，並獲得<strong>星極火</strong>。",
+      "challenge": "目標的魔法防禦",
+      "cost": "3 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "effects": "dict"
+    },
+    "Fester": {
+      "name": "潰爛爆發",
+      "base_effect": "對目標造成 10 點傷害。",
+      "cost": "1 層以太超流",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Fuma Shuriken": {
+      "name": "風魔手裏劍",
+      "base_effect": "對目標造成 20 點傷害。",
+      "condition": "為忍術消耗 1 個以上的印",
+      "range": "12 格",
+      "target": "單體"
+    },
+    "Quick Nock": {
+      "name": "連珠箭",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "與此角色相鄰的 3x3 區域",
+      "target": "範圍內所有敵人",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Troubadour": {
+      "name": "行吟",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "base_effect": "dict"
+    },
+    "Refulgent Arrow": {
+      "name": "輝煌箭",
+      "base_effect": "對目標造成 15 點傷害，並可使用<strong>箭矢連射</strong>。",
+      "challenge": "目標的防禦",
+      "condition": "處於鷹眼效果下",
+      "direct_hit": "額外造成4d6點傷害。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Secret of the Lily": {
+      "name": "治療百合"
+    },
+    "Sidewinder": {
+      "name": "側風誘導箭",
+      "base_effect": "對目標造成 20 點傷害。",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Flood of Darkness": {
+      "name": "暗黑波動",
+      "base_effect": "對所有目標造成 5 點傷害，並獲得<strong>暗黑</strong>。",
+      "cost": "2 魔力(MP)",
+      "range": "與此角色相鄰的 3x3 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Draw Arcana": {
+      "name": "抽卡"
+    },
+    "Barrel Stabilizer": {
+      "name": "槍管加熱",
+      "base_effect": "獲得<strong>過熱</strong>，持續至你的下一個回合開始。",
+      "limitations": "每階段一次"
+    },
+    "Army's Paeon": {
+      "name": "軍神的讚美歌",
+      "limitations": "每階段一次",
+      "base_effect": "dict"
+    },
+    "Painflare": {
+      "name": "痛苦核爆",
+      "base_effect": "對所有目標造成6點傷害。",
+      "cost": "1 層以太超流",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Fire": {
+      "name": "火",
+      "challenge": "目標的魔法防禦",
+      "cost": "2 魔力(MP)",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Resurrection (Scholar)": {
+      "name": "復生（學者）",
+      "cost": "3 魔力(MP)",
+      "range": "5 格*",
+      "target": "1 名昏厥的角色",
+      "base_effect": "dict"
+    },
+    "Dark Knight Combo (Hard Slash + Syphon Strike)": {
+      "name": "暗黑騎士連擊（重斬 + 吸收斬）",
+      "challenge": "目標的防禦",
+      "combo": "噬魂斬",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Straight Shot": {
+      "name": "直線射擊",
+      "base_effect": "對目標造成 10 點傷害，並可使用<strong>箭矢連射</strong>。",
+      "challenge": "目標的防禦",
+      "condition": "處於鷹眼效果下",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "effects": "dict"
+    },
+    "Lustrate": {
+      "name": "生命活性法",
+      "cost": "1 層以太超流",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任一角色結束其回合時",
+      "base_effect": "dict"
+    },
+    "Enkindle Bahamut": {
+      "name": "龍神迸發",
+      "base_effect": "你的寵物立即使用<strong>死亡輪迴</strong>。",
+      "condition": "你已召喚亞靈神巴哈姆特",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Limit Break: Pulse of Life": {
+      "name": "極限技：生命鼓動",
+      "range": "整張遭遇戰地圖*",
+      "target": "範圍內所有友方冒險者",
+      "trigger": "隨時使用",
+      "base_effect": "dict"
+    },
+    "Aspected Benefic": {
+      "name": "吉星相位",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Transpose": {
+      "name": "星靈移位",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Aetherial Manipulation": {
+      "name": "以太步",
+      "limitations": "每階段一次",
+      "range": "5 格",
+      "target": "1 名盟友",
+      "base_effect": "dict"
+    },
+    "Enchanted Riposte": {
+      "name": "魔回刺",
+      "base_effect": "對目標造成 1d6 + 6 點傷害。",
+      "challenge": "目標的魔法防禦",
+      "cost": "3 黑魔元與 3 白魔元",
+      "direct_hit": "額外造成 1d6 傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_formula": "1d6 + 6"
+    },
+    "Excogitation": {
+      "name": "深謀遠慮之策",
+      "cost": "1 層以太超流",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Monk Combo": {
+      "name": "武僧連擊",
+      "base_effect": "dict"
+    },
+    "Kassatsu": {
+      "name": "生殺予奪",
+      "base_effect": "移除<strong>忍術冷卻</strong>，並獲得 1 個<strong>結印</strong>。",
+      "limitations": "每階段一次"
+    },
+    "Empyreal Arrow": {
+      "name": "九天連箭",
+      "base_effect": "對目標造成8點傷害。",
+      "limitations": "每階段兩次",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "當任何角色結束其回合時。"
+    },
+    "Machina": {
+      "name": "機械兵器"
+    },
+    "Meditation": {
+      "name": "冥想",
+      "base_effect": "獲得 1 個<strong>脈輪</strong>"
+    },
+    "Form Shift": {
+      "name": "演武",
+      "base_effect": "獲得<strong>無相身形</strong>。",
+      "effects": "dict"
+    },
+    "Coeurl's Fury": {
+      "name": "豹怒"
+    },
+    "Power Surge": {
+      "name": "龍槍"
+    },
+    "Divination": {
+      "name": "占卜",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內的所有盟友。",
+      "trigger": "在你的回合中隨時使用",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Leg Graze": {
+      "name": "傷腿",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "觸發此能力的敵人",
+      "trigger": "在敵人進行能力檢定後立即使用",
+      "base_effect": "dict"
+    },
+    "Searing Light": {
+      "name": "灼熱之光",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "trigger": "在你的回合中隨時使用",
+      "base_effect": "dict"
+    },
+    "Bulwark": {
+      "name": "壁壘",
+      "limitations": "每階段一次",
+      "trigger": "當以你為目標的能力造成爆擊時",
+      "base_effect": "dict"
+    },
+    "Caustic Bite + Stormbite": {
+      "name": "烈毒咬箭 + 狂風蝕箭",
+      "challenge": "目標的防禦",
+      "direct_hit": "對目標造成 3d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Machinist Combo (Heated Split Shot + Heated Slug Shot)": {
+      "name": "機工士連擊（熱分裂彈 + 熱獨頭彈）",
+      "base_effect": "對目標造成 13 點傷害，並獲得 1 點熱量。",
+      "challenge": "目標的防禦",
+      "combo": "熱狙擊彈",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Hissatsu: Guren": {
+      "name": "必殺劍·紅蓮",
+      "base_effect": "對所有目標造成 20 點傷害。",
+      "cost": "2 劍氣",
+      "limitations": "每階段一次",
+      "range": "與此角色相鄰的 3x3 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Between the Lines": {
+      "name": "魔紋步",
+      "base_effect": "移動至目標格。",
+      "condition": "遭遇地圖上存在由你的黑魔紋創造的區域",
+      "range": "10 格",
+      "target": "你的黑魔紋區域內的 1 格",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Combust II": {
+      "name": "陽星",
+      "base_effect": "對目標造成4點傷害，並施加<strong>持續傷害(DOT)</strong>（6）。",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Presence of Mind": {
+      "name": "神速詠唱",
+      "base_effect": "立即使用你的一項魔法能力",
+      "limitations": "每階段一次"
+    },
+    "Aetherotransformer": {
+      "name": "以太轉換器"
+    },
+    "Limit Break: Satellite Beam": {
+      "name": "極限技：衛星光束",
+      "base_effect": "對所有目標造成10d6 + 60點傷害。",
+      "target": "範圍內所有敵人",
+      "trigger": "在你的回合中隨時作為主要行動使用",
+      "base_formula": "10d6 + 60"
+    },
+    "Ricochet": {
+      "name": "彈射",
+      "base_effect": "對所有目標造成8點傷害。",
+      "limitations": "每階段一次",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "trigger": "隨時使用"
+    },
+    "Blazing Shot": {
+      "name": "烈焰彈",
+      "challenge": "目標的防禦",
+      "condition": "處於過熱效果下時",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Shifu": {
+      "name": "士風",
+      "base_effect": "對目標造成1d6點傷害，並賦予<strong>風花</strong>。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "base_formula": "1d6"
+    },
+    "Divine Benison": {
+      "name": "水流幕",
+      "base_effect": "賦予目標一道具有20點<strong>體力(HP)</strong>的護盾。",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "觸發水流幕的能力的1個目標",
+      "trigger": "能力結算前的瞬間"
+    },
+    "Holy Requiescat": {
+      "name": "神聖安魂祈禱",
+      "base_effect": "造成8點傷害，並對目標施加<strong>仇恨</strong>。",
+      "cost": "2點魔力(MP)與1層安魂祈禱",
+      "range": "10 格",
+      "target": "單體",
+      "trigger": "在你的回合中隨時使用"
+    },
+    "Helios": {
+      "name": "陽星",
+      "base_effect": "為所有目標恢復3d6 + 8點<strong>體力(HP)</strong>。。",
+      "cost": "2 魔力(MP)",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有盟友",
+      "base_formula": "3d6 + 8"
+    },
+    "Life of the Dragon": {
+      "name": "紅蓮之血"
+    },
+    "Summon Eos": {
+      "name": "召喚朝日小仙女"
+    },
+    "Bestial Fury": {
+      "name": "獸之怒"
+    },
+    "Jolt II": {
+      "name": "震盪",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Hide": {
+      "name": "隱遁"
+    },
+    "Benediction": {
+      "name": "天賜祝福",
+      "limitations": "每階段一次",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    },
+    "Hawk's Eye": {
+      "name": "鷹眼"
+    },
+    "Overheated": {
+      "name": "過熱"
+    },
+    "Blood Weapon": {
+      "name": "嗜血",
+      "base_effect": "恢復1點<strong>魔力(MP)</strong>。",
+      "limitations": "每階段三次",
+      "trigger": "當你以能力造成直擊時"
+    },
+    "Musical Aptitude": {
+      "name": "音樂天賦"
+    },
+    "Storm's Eye": {
+      "name": "暴風斬",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "1 格",
+      "target": "單體",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Spread Shot": {
+      "name": "散射",
+      "base_effect": "對所有目標造成15點傷害，並獲得1點熱量。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "與此角色相鄰的 5x5 區域",
+      "target": "範圍內所有敵人"
+    },
+    "Earthly Star": {
+      "name": "地星",
+      "range": "10 格",
+      "target": "1 格",
+      "trigger": "在你的回合中隨時使用",
+      "base_effect": "dict"
+    },
+    "True Thrust": {
+      "name": "精準刺",
+      "base_effect": "對目標造成 13 點傷害。",
+      "challenge": "目標的防禦",
+      "combo": "龍騎士連擊或龍騎士連擊II",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Intervene": {
+      "name": "調停",
+      "limitations": "\" 每階段兩次",
+      "range": "5 格",
+      "target": "1名敵人",
+      "base_effect": "dict"
+    },
+    "Energy Siphon + Ruin IV": {
+      "name": "能量抽取 + 毀絕",
+      "base_effect": "對所有目標造成10點傷害，並獲得2層以太超流。",
+      "limitations": "每階段一次，與能量吸收 + 毀絕共用次數",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Benefic": {
+      "name": "吉星",
+      "cost": "1 魔力(MP)",
+      "range": "10 格",
+      "target": "單體",
+      "base_formula": "3d6 + 5",
+      "effects": "dict",
+      "base_effect": "dict"
+    },
+    "Shukuchi": {
+      "name": "縮地",
+      "base_effect": "移動最多 6 格",
+      "limitations": "每階段一次",
+      "trigger": "當任一角色結束其回合時"
+    },
+    "Fey Union": {
+      "name": "仙光的擁抱",
+      "base_effect": "為目標恢復 13 點<strong>體力(HP)</strong>。",
+      "cost": "1 仙靈以太",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Ninja Combo (Spinning Edge + Gust Slash)": {
+      "name": "忍者連擊（雙刃旋 + 絕風）",
+      "base_effect": "對目標造成 10 點傷害，並獲得 1 點忍氣。",
+      "challenge": "目標的防禦",
+      "combo": "旋風刃或強甲破點突",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Blood of the Dragon": {
+      "name": "蒼天龍血"
+    },
+    "Flamethrower": {
+      "name": "火焰噴射器",
+      "limitations": "每階段一次",
+      "range": "與此角色相鄰的 5x5 區域",
+      "trigger": "當你結束回合時",
+      "base_effect": "dict"
+    },
+    "Verraise": {
+      "name": "赤復活",
+      "description": "<p>檢定：特殊（d20，暴擊</p>",
+      "cost": "3 魔力(MP)",
+      "range": "5 格*",
+      "target": "1 名昏厥的角色",
+      "base_effect": "dict"
+    },
+    "Tomahawk": {
+      "name": "飛斧",
+      "base_effect": "造成8點傷害，並對目標施加<strong>仇恨</strong>。",
+      "challenge": "目標的防禦",
+      "direct_hit": "額外造成3d6點傷害。",
+      "range": "5 格",
+      "target": "單體"
+    },
+    "Passage of Arms": {
+      "name": "武裝戍衛",
+      "limitations": "每階段一次",
+      "range": "以此角色相鄰的 1 格為中心的 5x5 區域",
+      "target": "範圍內所有盟友",
+      "trigger": "當你結束回合時",
+      "base_effect": "dict"
+    },
+    "Nature's Minne": {
+      "name": "大地神的抒情戀歌",
+      "base_effect": "為所有目標恢復 8 <strong>體力(HP)</strong>。",
+      "limitations": "每階段一次",
+      "range": "以此角色為中心的5x5格區域",
+      "target": "範圍內所有恢復體力(HP)的盟友",
+      "trigger": "一名盟友恢復體力(HP)時"
+    },
+    "Aetherpact": {
+      "name": "以太契約"
+    },
+    "Impact": {
+      "name": "衝擊",
+      "challenge": "目標的魔法防禦",
+      "direct_hit": "額外造成 2d6 點傷害。",
+      "range": "此角色 10 格內的 5x5 區域",
+      "target": "範圍內所有敵人",
+      "base_formula": "2d6 + 8",
+      "base_effect": "dict"
+    },
+    "Verholy": {
+      "name": "赤神聖",
+      "challenge": "目標的魔法防禦",
+      "cost": "1點魔力(MP)與3層魔元",
+      "direct_hit": "對目標額外造成3d6點傷害。",
+      "range": "10 格",
+      "target": "單體",
+      "base_effect": "dict"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "base_effect": {
+      "path": "system.base_effect",
+      "converter": "ffxivText"
+    },
+    "challenge": "system.challenge",
+    "combo": "system.combo",
+    "condition": "system.condition",
+    "cost": "system.cost",
+    "direct_hit": "system.direct_hit",
+    "limitations": "system.limitations",
+    "range": "system.range",
+    "target": "system.target",
+    "trigger": "system.trigger",
+    "traits": "system.traits",
+    "base_formula": "system.base_formula",
+    "job_name": "system.job_name",
+    "effects": {
+      "path": "effects",
+      "converter": "ffxivEffects"
+    },
+    "ability_grants": {
+      "path": "system.ability_grants",
+      "converter": "ffxivGrants"
+    },
+    "pet_grants": {
+      "path": "system.pet_grants",
+      "converter": "ffxivPetGrants"
+    },
+    "summon_actors": {
+      "path": "system.summon_actors",
+      "converter": "ffxivNamed"
+    }
+  }
+}

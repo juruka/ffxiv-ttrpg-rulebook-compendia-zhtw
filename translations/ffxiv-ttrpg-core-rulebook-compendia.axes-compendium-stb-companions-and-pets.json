@@ -1,0 +1,127 @@
+{
+  "label": "同伴與寵物 (StB)",
+  "folders": {
+    "Chocobo Companions": "陸行鳥搭檔",
+    "Summoner Pets": "召喚師召喚獸",
+    "LV70": "LV70",
+    "Healer": "治療者",
+    "LV65": "LV65",
+    "Scholar Fairies": "學者仙女",
+    "Attacker": "攻擊者",
+    "Defender": "防禦者",
+    "Machinist Machines": "機工士機械"
+  },
+  "entries": {
+    "Demi-Bahamut (LV 70)": {
+      "name": "巴哈姆特之靈 (等級 70)",
+      "tokenName": "巴哈姆特之靈",
+      "items": "dict"
+    },
+    "Carbuncle (LV 70)": {
+      "name": "寶石獸 (等級 70)",
+      "tokenName": "寶石獸",
+      "items": "dict"
+    },
+    "Eos (LV 65)": {
+      "name": "朝日小仙女 (等級 65)",
+      "tokenName": "朝日小仙女",
+      "items": "dict"
+    },
+    "Eos (LV 70)": {
+      "name": "朝日小仙女 (等級 70)",
+      "tokenName": "朝日小仙女",
+      "items": "dict"
+    },
+    "Garuda-Egi (LV 70)": {
+      "name": "迦樓羅之靈 (等級 70)",
+      "tokenName": "風神之靈",
+      "items": "dict"
+    },
+    "Carbuncle (LV 65)": {
+      "name": "寶石獸 (等級 65)",
+      "tokenName": "寶石獸",
+      "items": "dict"
+    },
+    "Rook Autoturret (LV 70)": {
+      "name": "車式浮空炮 (等級 70)",
+      "tokenName": "車式浮空炮 (等級 70)",
+      "items": "dict"
+    },
+    "Chocobo Companion: Attacker (Level 70)": {
+      "name": "陸行鳥搭檔：進攻型 (等級 70)",
+      "tokenName": "陸行鳥搭檔：進攻型 (等級 70)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Garuda-Egi (LV 65)": {
+      "name": "迦樓羅之靈 (等級 65)",
+      "tokenName": "風神之靈",
+      "items": "dict"
+    },
+    "Chocobo Companion: Healer (Level 65)": {
+      "name": "陸行鳥搭檔：治療型 (等級 65)",
+      "tokenName": "陸行鳥搭檔：治療型 (等級 65)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Titan-Egi (LV 65)": {
+      "name": "泰坦之靈 (等級 65)",
+      "tokenName": "土神之靈",
+      "items": "dict"
+    },
+    "Rook Autoturret (LV 65)": {
+      "name": "車式浮空炮 (等級 65)",
+      "tokenName": "車式浮空炮 (等級 65)",
+      "items": "dict"
+    },
+    "Chocobo Companion: Defender (Level 70)": {
+      "name": "陸行鳥搭檔：防禦型 (等級 70)",
+      "tokenName": "陸行鳥搭檔：防禦型 (等級 70)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Attacker (Level 65)": {
+      "name": "陸行鳥搭檔：進攻型 (等級 65)",
+      "tokenName": "陸行鳥搭檔：進攻型 (等級 65)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Ifrit-Egi (LV 65)": {
+      "name": "伊弗利特之靈 (等級 65)",
+      "tokenName": "火神之靈",
+      "items": "dict"
+    },
+    "Ifrit-Egi (LV 70)": {
+      "name": "伊弗利特之靈 (等級 70)",
+      "tokenName": "火神之靈",
+      "items": "dict"
+    },
+    "Chocobo Companion: Defender (Level 65)": {
+      "name": "陸行鳥搭檔：防禦型 (等級 65)",
+      "tokenName": "陸行鳥搭檔：防禦型 (等級 65)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Titan-Egi (LV 70)": {
+      "name": "泰坦之靈 (等級 70)",
+      "tokenName": "土神之靈",
+      "items": "dict"
+    },
+    "Chocobo Companion: Healer (Level 70)": {
+      "name": "陸行鳥搭檔：治療型 (等級 70)",
+      "tokenName": "陸行鳥搭檔：治療型 (等級 70)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "tokenName": "prototypeToken.name",
+    "traits": "system.traits",
+    "specie": "system.specie",
+    "items": {
+      "path": "items",
+      "converter": "ffxivItems"
+    }
+  }
+}

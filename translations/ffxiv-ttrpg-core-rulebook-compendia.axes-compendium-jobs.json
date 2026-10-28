@@ -1,0 +1,391 @@
+{
+  "label": "職業",
+  "folders": {
+    "Paladin": "騎士",
+    "White Mage": "白魔法師",
+    "Bard": "吟遊詩人",
+    "Dragoon": "龍騎士",
+    "Summoner": "召喚師",
+    "Ninja": "忍者",
+    "Tanks": "防護職業",
+    "Warrior": "戰士",
+    "Healers": "治療職業",
+    "Machinist": "機工士",
+    "DPS": "進攻職業",
+    "Astrologian": "占星術士",
+    "Scholar": "學者",
+    "Dark Knight": "暗黑騎士",
+    "Black Mage": "黑魔法師",
+    "Monk": "武僧"
+  },
+  "entries": {
+    "Bard (LV 40)": {
+      "name": "吟遊詩人（LV 40）",
+      "job_name": "吟遊詩人",
+      "ability_grants": "dict"
+    },
+    "Bard (LV 55)": {
+      "name": "吟遊詩人（LV 55）",
+      "job_name": "吟遊詩人",
+      "ability_grants": "dict"
+    },
+    "Astrologian (LV 55)": {
+      "name": "占星術士（LV 55）",
+      "job_name": "占星術士",
+      "ability_grants": "dict"
+    },
+    "Ninja (LV 55)": {
+      "name": "忍者（LV 55）",
+      "job_name": "忍者",
+      "ability_grants": "dict"
+    },
+    "Machinist (LV 30)": {
+      "name": "機工士（LV 30）",
+      "job_name": "機工士",
+      "ability_grants": "dict"
+    },
+    "Warrior (LV 60)": {
+      "name": "戰士（LV 60）",
+      "job_name": "戰士",
+      "ability_grants": "dict"
+    },
+    "Astrologian (LV 30)": {
+      "name": "占星術士（LV 30）",
+      "job_name": "占星術士",
+      "ability_grants": "dict"
+    },
+    "Monk (LV 40)": {
+      "name": "武僧（LV 40）",
+      "job_name": "武僧",
+      "ability_grants": "dict"
+    },
+    "Summoner (LV 55)": {
+      "name": "召喚師（LV 55）",
+      "job_name": "召喚師",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Paladin (LV 55)": {
+      "name": "騎士（LV 55）",
+      "job_name": "騎士",
+      "ability_grants": "dict"
+    },
+    "Astrologian (LV 60)": {
+      "name": "占星術士（LV 60）",
+      "job_name": "占星術士",
+      "ability_grants": "dict"
+    },
+    "Warrior (LV 55)": {
+      "name": "戰士（LV 55）",
+      "job_name": "戰士",
+      "ability_grants": "dict"
+    },
+    "Summoner (LV 50)": {
+      "name": "召喚師（LV 50）",
+      "job_name": "召喚師",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Machinist (LV 50)": {
+      "name": "機工士（LV 50）",
+      "job_name": "機工士",
+      "ability_grants": "dict"
+    },
+    "Scholar (LV 60)": {
+      "name": "學者 (LV 60)",
+      "job_name": "學者",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Paladin (LV 60)": {
+      "name": "騎士 (LV 60)",
+      "job_name": "騎士",
+      "ability_grants": "dict"
+    },
+    "Dragoon (LV 30)": {
+      "name": "龍騎士 (LV 30)",
+      "job_name": "龍騎士",
+      "ability_grants": "dict"
+    },
+    "Astrologian (LV 40)": {
+      "name": "占星術士 (LV 40)",
+      "job_name": "占星術士",
+      "ability_grants": "dict"
+    },
+    "Warrior (LV 40)": {
+      "name": "戰士 (LV 40)",
+      "job_name": "戰士",
+      "ability_grants": "dict"
+    },
+    "Dragoon (LV 50)": {
+      "name": "龍騎士 (LV 50)",
+      "job_name": "龍騎士",
+      "ability_grants": "dict"
+    },
+    "Summoner (LV 30)": {
+      "name": "召喚師 (LV 30)",
+      "job_name": "召喚師",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Ninja (LV 40)": {
+      "name": "忍者 (LV 40)",
+      "job_name": "忍者",
+      "ability_grants": "dict"
+    },
+    "Dark Knight (LV 30)": {
+      "name": "暗黑騎士 (LV 30)",
+      "job_name": "暗黑騎士",
+      "ability_grants": "dict"
+    },
+    "White Mage (LV 50)": {
+      "name": "白魔法師 (LV 50)",
+      "job_name": "白魔法師",
+      "ability_grants": "dict"
+    },
+    "Scholar (LV 40)": {
+      "name": "學者 (LV 40)",
+      "job_name": "學者",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Summoner (LV 60)": {
+      "name": "召喚師 (LV 60)",
+      "job_name": "召喚師",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Astrologian (LV 50)": {
+      "name": "占星術士 (LV 50)",
+      "job_name": "占星術士",
+      "ability_grants": "dict"
+    },
+    "Warrior (LV 50)": {
+      "name": "戰士 (LV 50)",
+      "job_name": "戰士",
+      "ability_grants": "dict"
+    },
+    "Warrior (LV 30)": {
+      "name": "戰士 (LV 30)",
+      "job_name": "戰士",
+      "ability_grants": "dict"
+    },
+    "Black Mage (LV 60)": {
+      "name": "黑魔法師 (LV 60)",
+      "job_name": "黑魔法師",
+      "ability_grants": "dict"
+    },
+    "White Mage (LV 60)": {
+      "name": "白魔法師 (LV 60)",
+      "job_name": "白魔法師",
+      "ability_grants": "dict"
+    },
+    "Dragoon (LV 60)": {
+      "name": "龍騎士 (LV 60)",
+      "job_name": "龍騎士",
+      "ability_grants": "dict"
+    },
+    "Scholar (LV 50)": {
+      "name": "學者 (LV 50)",
+      "job_name": "學者",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Bard (LV 30)": {
+      "name": "吟遊詩人 (LV 30)",
+      "job_name": "吟遊詩人",
+      "ability_grants": "dict"
+    },
+    "White Mage (LV 30)": {
+      "name": "白魔法師 (LV 30)",
+      "job_name": "白魔法師",
+      "ability_grants": "dict"
+    },
+    "Ninja (LV 60)": {
+      "name": "忍者 (LV 60)",
+      "job_name": "忍者",
+      "ability_grants": "dict"
+    },
+    "Monk (LV 60)": {
+      "name": "武僧 (LV 60)",
+      "job_name": "武僧",
+      "ability_grants": "dict"
+    },
+    "Monk (LV 30)": {
+      "name": "武僧 (LV 30)",
+      "job_name": "武僧",
+      "ability_grants": "dict"
+    },
+    "Dark Knight (LV 55)": {
+      "name": "暗黑騎士 (LV 55)",
+      "job_name": "暗黑騎士",
+      "ability_grants": "dict"
+    },
+    "Dark Knight (LV 60)": {
+      "name": "暗黑騎士 (LV 60)",
+      "job_name": "暗黑騎士",
+      "ability_grants": "dict"
+    },
+    "Paladin (LV 40)": {
+      "name": "騎士 (LV 40)",
+      "job_name": "騎士",
+      "ability_grants": "dict"
+    },
+    "Black Mage (LV 50)": {
+      "name": "黑魔法師 (LV 50)",
+      "job_name": "黑魔法師",
+      "ability_grants": "dict"
+    },
+    "Paladin (LV 50)": {
+      "name": "騎士 (LV 50)",
+      "job_name": "騎士",
+      "ability_grants": "dict"
+    },
+    "Machinist (LV 40)": {
+      "name": "機工士 (LV 40)",
+      "job_name": "機工士",
+      "ability_grants": "dict"
+    },
+    "Machinist (LV 55)": {
+      "name": "機工士 (LV 55)",
+      "job_name": "機工士",
+      "ability_grants": "dict"
+    },
+    "Black Mage (LV 30)": {
+      "name": "黑魔法師 (LV 30)",
+      "job_name": "黑魔法師",
+      "ability_grants": "dict"
+    },
+    "Paladin (LV 30)": {
+      "name": "騎士 (LV 30)",
+      "job_name": "騎士",
+      "ability_grants": "dict"
+    },
+    "Bard (LV 60)": {
+      "name": "吟遊詩人 (LV 60)",
+      "job_name": "吟遊詩人",
+      "ability_grants": "dict"
+    },
+    "Scholar (LV 55)": {
+      "name": "學者 (LV 55)",
+      "job_name": "學者",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Bard (LV 50)": {
+      "name": "吟遊詩人 (LV 50)",
+      "job_name": "吟遊詩人",
+      "ability_grants": "dict"
+    },
+    "Dark Knight (LV 50)": {
+      "name": "暗黑騎士 (LV 50)",
+      "job_name": "暗黑騎士",
+      "ability_grants": "dict"
+    },
+    "Dragoon (LV 40)": {
+      "name": "龍騎士 (LV 40)",
+      "job_name": "龍騎士",
+      "ability_grants": "dict"
+    },
+    "Scholar (LV 30)": {
+      "name": "學者 (LV 30)",
+      "job_name": "學者",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Ninja (LV 50)": {
+      "name": "忍者 (LV 50)",
+      "job_name": "忍者",
+      "ability_grants": "dict"
+    },
+    "Monk (LV 55)": {
+      "name": "武僧 (LV 55)",
+      "job_name": "武僧",
+      "ability_grants": "dict"
+    },
+    "Dragoon (LV 55)": {
+      "name": "龍騎士 (LV 55)",
+      "job_name": "龍騎士",
+      "ability_grants": "dict"
+    },
+    "Dark Knight (LV 40)": {
+      "name": "暗黑騎士 (LV 40)",
+      "job_name": "暗黑騎士",
+      "ability_grants": "dict"
+    },
+    "White Mage (LV 40)": {
+      "name": "白魔法師 (LV 40)",
+      "job_name": "白魔法師",
+      "ability_grants": "dict"
+    },
+    "Summoner (LV 40)": {
+      "name": "召喚師 (LV 40)",
+      "job_name": "召喚師",
+      "ability_grants": "dict",
+      "pet_grants": "dict"
+    },
+    "Black Mage (LV 40)": {
+      "name": "黑魔法師 (LV 40)",
+      "job_name": "黑魔法師",
+      "ability_grants": "dict"
+    },
+    "Ninja (LV 30)": {
+      "name": "忍者 (LV 30)",
+      "job_name": "忍者",
+      "ability_grants": "dict"
+    },
+    "Monk (LV 50)": {
+      "name": "武僧 (LV 50)",
+      "job_name": "武僧",
+      "ability_grants": "dict"
+    },
+    "Black Mage (LV 55)": {
+      "name": "黑魔法師 (LV 55)",
+      "job_name": "黑魔法師",
+      "ability_grants": "dict"
+    },
+    "Machinist (LV 60)": {
+      "name": "機工士 (LV 60)",
+      "job_name": "機工士",
+      "ability_grants": "dict"
+    },
+    "White Mage (LV 55)": {
+      "name": "白魔法師 (LV 55)",
+      "job_name": "白魔法師",
+      "ability_grants": "dict"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "base_effect": "system.base_effect",
+    "challenge": "system.challenge",
+    "combo": "system.combo",
+    "condition": "system.condition",
+    "cost": "system.cost",
+    "direct_hit": "system.direct_hit",
+    "limitations": "system.limitations",
+    "range": "system.range",
+    "target": "system.target",
+    "trigger": "system.trigger",
+    "traits": "system.traits",
+    "base_formula": "system.base_formula",
+    "job_name": "system.job_name",
+    "effects": {
+      "path": "effects",
+      "converter": "ffxivEffects"
+    },
+    "ability_grants": {
+      "path": "system.ability_grants",
+      "converter": "ffxivGrants"
+    },
+    "pet_grants": {
+      "path": "system.pet_grants",
+      "converter": "ffxivPetGrants"
+    },
+    "summon_actors": {
+      "path": "system.summon_actors",
+      "converter": "ffxivNamed"
+    }
+  }
+}

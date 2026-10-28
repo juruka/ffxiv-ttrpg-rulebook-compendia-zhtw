@@ -1,0 +1,128 @@
+{
+  "label": "擲骰表",
+  "folders": {
+    "DoH/DoL": "能工巧匠／大地使者",
+    "Custom Traits - (3 minor, 1 talent)": "自訂特性 -（3項次要特性、1項天賦）",
+    "Alt Alchemist Tables": "鍊金術士替代表",
+    "Titles": "稱號",
+    "Profile Traits": "人物背景特性",
+    "Personal Quests": "個人任務",
+    "Character Creation": "角色創建",
+    "Misc": "雜項"
+  },
+  "entries": {
+    "Minor Restriction - Random Condition Table": {
+      "name": "次要限制 - 隨機條件表",
+      "results": "dict"
+    },
+    "CRP, BSM, ARM, GSM, LTW, WVR Personal Quest Outcome Table": {
+      "name": "刻木匠、鍛鐵匠、鑄甲匠、雕金匠、製革匠、裁衣匠個人任務結果表",
+      "results": "dict"
+    },
+    "Random Element Table": {
+      "name": "隨機元素表",
+      "results": "dict"
+    },
+    "Minor Restriction - Random Terrain Table": {
+      "name": "次要限制 - 隨機地形表",
+      "results": "dict"
+    },
+    "Random Motive Table": {
+      "name": "隨機動機表",
+      "results": "dict"
+    },
+    "Random Race Table": {
+      "name": "隨機種族表",
+      "results": "dict"
+    },
+    "Culinarian Personal Quest Outcome Table": {
+      "name": "烹調師個人任務結果表",
+      "results": "dict"
+    },
+    "Ether Transmuation Table": {
+      "name": "醒神藥鍊成表",
+      "results": "dict"
+    },
+    "Classifications": {
+      "name": "分類",
+      "results": "dict"
+    },
+    "Miner, Botanist Personal Quest Outcome Table": {
+      "name": "採礦工、園藝工個人任務結果表",
+      "results": "dict"
+    },
+    "Random Aesthetic Table": {
+      "name": "隨機美學風格表",
+      "results": "dict"
+    },
+    "Random Character Bond Table": {
+      "name": "隨機角色羈絆表",
+      "results": "dict"
+    },
+    "Fisher Personal Quest Outcome Table": {
+      "name": "捕魚人個人任務結果表",
+      "results": "dict"
+    },
+    "Only Use if Needed: Random _______ Adventurer": {
+      "name": "僅於需要時使用：隨機_______冒險者",
+      "results": "dict"
+    },
+    "Minor Restriction - Random Specialty Table": {
+      "name": "次要限制 - 隨機專長表",
+      "results": "dict"
+    },
+    "Potion Transmutation Table": {
+      "name": "治療劑鍊成表",
+      "results": "dict"
+    },
+    "Random Starting Title Table": {
+      "name": "隨機起始稱號表",
+      "results": "dict"
+    },
+    "Random Distinguishing Features Table": {
+      "name": "隨機顯著特徵表",
+      "results": "dict"
+    },
+    "Random Origin Table": {
+      "name": "隨機出身表",
+      "results": "dict"
+    },
+    "Miscellaneous Personal Quests": {
+      "name": "雜項個人任務",
+      "description": "<p>你可以選擇其中一個選項，或擲一顆d6隨機選擇。</p>",
+      "results": "dict"
+    },
+    "Random Sample Profile Trait Table": {
+      "name": "隨機人物背景特性範例表",
+      "results": "dict"
+    },
+    "Minor Restriction - Random Region Table": {
+      "name": "次要限制 - 隨機地區表",
+      "results": "dict"
+    },
+    "Random Interparty Relationship Table": {
+      "name": "隨機隊員關係表",
+      "results": "dict"
+    },
+    "Random Talent Table": {
+      "name": "隨機天賦表",
+      "results": "dict"
+    },
+    "Random Bond Table": {
+      "name": "隨機羈絆表",
+      "results": "dict"
+    },
+    "Alchemist Personal Quest Outcome Table": {
+      "name": "鍊金術士個人任務結果表",
+      "results": "dict"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "description",
+    "results": {
+      "path": "results",
+      "converter": "ffxivResults"
+    }
+  }
+}

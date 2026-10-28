@@ -1,0 +1,183 @@
+{
+  "label": "同伴與寵物",
+  "folders": {
+    "LV30": "LV30",
+    "Chocobo Companions": "陸行鳥搭檔",
+    "Attacker": "攻擊者",
+    "Healer": "治療者",
+    "Defender": "防禦者",
+    "LV40": "LV40",
+    "LV55 (Because Ifrit Sucks)": "LV55（因為伊弗利特太爛了）",
+    "LV60": "LV60",
+    "Summoner Pets": "召喚師召喚獸",
+    "LV50-55 (Except Ifrit)": "LV50-55（伊弗利特除外）",
+    "Scholar Fairies": "學者仙女"
+  },
+  "entries": {
+    "Emerald Carbuncle": {
+      "name": "綠寶石獸",
+      "tokenName": "綠寶石獸",
+      "items": "dict"
+    },
+    "Eos (LV50-55)": {
+      "name": "朝日小仙女 (LV50-55)",
+      "tokenName": "朝日小仙女",
+      "items": "dict"
+    },
+    "Ifrit-Egi": {
+      "name": "火神之靈",
+      "tokenName": "火神之靈",
+      "items": "dict"
+    },
+    "Chocobo Companion: Healer (Level 40)": {
+      "name": "陸行鳥搭檔：治療型 (等級 40)",
+      "tokenName": "陸行鳥搭檔：治療型 (等級 40)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Carbuncle (LV50-60)": {
+      "name": "寶石獸 (LV50-60)",
+      "tokenName": "寶石獸",
+      "items": "dict"
+    },
+    "Chocobo Companion: Healer (Level 55)": {
+      "name": "陸行鳥搭檔：治療型 (等級 55)",
+      "tokenName": "陸行鳥搭檔：治療型 (等級 55)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Defender (Level 55)": {
+      "name": "陸行鳥搭檔：防禦型 (等級 55)",
+      "tokenName": "陸行鳥搭檔：防禦型 (等級 55)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Defender (Level 50)": {
+      "name": "陸行鳥搭檔：防禦型 (等級 50)",
+      "tokenName": "陸行鳥搭檔：防禦型 (等級 50)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Titan-Egi": {
+      "name": "土神之靈",
+      "tokenName": "土神之靈",
+      "items": "dict"
+    },
+    "Eos (LV40)": {
+      "name": "朝日小仙女 (LV40)",
+      "tokenName": "朝日小仙女",
+      "items": "dict"
+    },
+    "Chocobo Companion: Healer (Level 50)": {
+      "name": "陸行鳥搭檔：治療型 (等級 50)",
+      "tokenName": "陸行鳥搭檔：治療型 (等級 50)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Attacker (Level 40)": {
+      "name": "陸行鳥搭檔：攻擊型 (等級 40)",
+      "tokenName": "陸行鳥搭檔：攻擊型 (等級 40)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Attacker (Level 50)": {
+      "name": "陸行鳥搭檔：攻擊型 (等級 50)",
+      "tokenName": "陸行鳥搭檔：攻擊型 (等級 50)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Attacker (Level 30)": {
+      "name": "陸行鳥搭檔：攻擊型 (等級 30)",
+      "tokenName": "陸行鳥搭檔：攻擊型 (等級 30)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Garuda-Egi": {
+      "name": "風神之靈",
+      "tokenName": "風神之靈",
+      "items": "dict"
+    },
+    "Chocobo Companion: Defender (Level 60)": {
+      "name": "陸行鳥搭檔：防禦型 (等級 60)",
+      "tokenName": "陸行鳥搭檔：防禦型 (等級 60)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Attacker (Level 60)": {
+      "name": "陸行鳥搭檔：攻擊型 (等級 60)",
+      "tokenName": "陸行鳥搭檔：攻擊型 (等級 60)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Eos (LV30)": {
+      "name": "朝日小仙女 (LV30)",
+      "tokenName": "朝日小仙女",
+      "items": "dict"
+    },
+    "Topaz Carbuncle": {
+      "name": "黃寶石獸",
+      "tokenName": "黃寶石獸",
+      "items": "dict"
+    },
+    "Chocobo Companion: Defender (Level 30)": {
+      "name": "陸行鳥搭檔：防禦型 (等級 30)",
+      "tokenName": "陸行鳥搭檔：防禦型 (等級 30)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Eos (LV60)": {
+      "name": "朝日小仙女 (LV60)",
+      "tokenName": "朝日小仙女",
+      "items": "dict"
+    },
+    "Carbuncle (LV30-40)": {
+      "name": "寶石獸 (LV30-40)",
+      "tokenName": "寶石獸",
+      "items": "dict"
+    },
+    "Chocobo Companion: Attacker (Level 55)": {
+      "name": "陸行鳥搭檔：攻擊型 (等級 55)",
+      "tokenName": "陸行鳥搭檔：攻擊型 (等級 55)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Healer (Level 30)": {
+      "name": "陸行鳥搭檔：治療型 (等級 30)",
+      "tokenName": "陸行鳥搭檔：治療型 (等級 30)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Chocobo Companion: Defender (Level 40)": {
+      "name": "陸行鳥搭檔：防禦型 (等級 40)",
+      "tokenName": "陸行鳥搭檔：防禦型 (等級 40)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    },
+    "Ruby Carbuncle": {
+      "name": "紅寶石獸",
+      "tokenName": "紅寶石獸",
+      "items": "dict"
+    },
+    "Rook Autoturret": {
+      "name": "車式浮空炮",
+      "tokenName": "車式浮空炮",
+      "items": "dict"
+    },
+    "Chocobo Companion: Healer (Level 60)": {
+      "name": "陸行鳥搭檔：治療型 (等級 60)",
+      "tokenName": "陸行鳥搭檔：治療型 (等級 60)",
+      "specie": "雲獸綱，陸行鳥",
+      "items": "dict"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "tokenName": "prototypeToken.name",
+    "traits": "system.traits",
+    "specie": "system.specie",
+    "items": {
+      "path": "items",
+      "converter": "ffxivItems"
+    }
+  }
+}

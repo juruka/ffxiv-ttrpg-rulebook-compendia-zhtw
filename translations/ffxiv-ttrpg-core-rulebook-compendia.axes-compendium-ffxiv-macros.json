@@ -1,0 +1,26 @@
+{
+  "label": "巨集",
+  "folders": {
+    "Monk": "武僧"
+  },
+  "entries": {
+    "Oops No Forms": {
+      "name": "糟糕，沒有身形"
+    },
+    "Opo-Opo Form": {
+      "name": "魔猿身"
+    },
+    "Formless Fist": {
+      "name": "無相身"
+    },
+    "Raptor Form": {
+      "name": "盜龍身"
+    },
+    "Coeurl Form": {
+      "name": "猛豹身"
+    },
+    "Roll Personal Quest Table": {
+      "name": "擲骰決定個人任務表結果"
+    }
+  }
+}

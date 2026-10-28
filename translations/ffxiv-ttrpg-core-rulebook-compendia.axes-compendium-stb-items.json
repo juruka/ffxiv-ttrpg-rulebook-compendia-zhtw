@@ -1,0 +1,108 @@
+{
+  "label": "物品 (StB)",
+  "folders": {
+    "Belts": "腰帶",
+    "Consumables": "消耗品",
+    "Belt Abilities": "腰帶能力",
+    "Augmentation Abilities": "增強能力",
+    "Augmentations": "增強項目",
+    "Utility Items": "實用物品"
+  },
+  "entries": {
+    "Defender's Boon II: Physical": {
+      "name": "守護者的恩惠 II：物理",
+      "base_effect": "<strong>防禦</strong>提高 1"
+    },
+    "Cure": {
+      "name": "治療",
+      "base_effect": "為目標恢復 4 點<strong>體力(HP)</strong>。",
+      "cost": "2 魔力(MP)",
+      "range": "10 格",
+      "target": "單體"
+    },
+    "Improved Padding II": {
+      "name": "強化襯墊 II"
+    },
+    "Precision Opener II": {
+      "name": "精準起手 II"
+    },
+    "Chirurgeon's Essentials": {
+      "name": "醫師必備用品"
+    },
+    "Phoenix Down": {
+      "name": "不死鳥之尾",
+      "condition": "本次遭遇中沒有具備精英敵人特性的敵人參戰。",
+      "range": "5 格",
+      "target": "1 名昏厥的角色"
+    },
+    "Defender's Boon II: Magic": {
+      "name": "守護者的恩惠 II：魔法",
+      "base_effect": "<strong>魔法防禦</strong>提高 1"
+    },
+    "Defender's Boon III": {
+      "name": "守護者的恩惠 III",
+      "base_effect": "<strong>防禦</strong>與<strong>魔法防禦</strong>提高 1"
+    },
+    "Survival Belt": {
+      "name": "求生腰帶",
+      "ability_grants": "dict"
+    },
+    "Holstered Item": {
+      "name": "腰掛物品",
+      "range": "1 格",
+      "target": "單體"
+    },
+    "Curecast Focus II": {
+      "name": "治療施法法器 II",
+      "ability_grants": "dict"
+    },
+    "Elixir": {
+      "name": "聖靈藥",
+      "base_effect": "為使用者恢復 2d6 + 6 <strong>體力(HP)</strong>及 1 <strong>魔力(MP)</strong>。",
+      "target": "自身",
+      "base_formula": "2d6 + 6"
+    },
+    "Mana Conduit II": {
+      "name": "魔力導管 II"
+    },
+    "Masterwork Ornamentation": {
+      "name": "精工飾件"
+    },
+    "Chef's Belt": {
+      "name": "主廚腰帶"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "base_effect": "system.base_effect",
+    "challenge": "system.challenge",
+    "combo": "system.combo",
+    "condition": "system.condition",
+    "cost": "system.cost",
+    "direct_hit": "system.direct_hit",
+    "limitations": "system.limitations",
+    "range": "system.range",
+    "target": "system.target",
+    "trigger": "system.trigger",
+    "traits": "system.traits",
+    "base_formula": "system.base_formula",
+    "job_name": "system.job_name",
+    "effects": {
+      "path": "effects",
+      "converter": "ffxivEffects"
+    },
+    "ability_grants": {
+      "path": "system.ability_grants",
+      "converter": "ffxivGrants"
+    },
+    "pet_grants": {
+      "path": "system.pet_grants",
+      "converter": "ffxivPetGrants"
+    },
+    "summon_actors": {
+      "path": "system.summon_actors",
+      "converter": "ffxivNamed"
+    }
+  }
+}

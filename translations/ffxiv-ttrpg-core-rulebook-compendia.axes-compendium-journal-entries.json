@@ -1,0 +1,32 @@
+{
+  "label": "日誌條目",
+  "folders": {},
+  "entries": {
+    "Status Effects": {
+      "name": "狀態效果",
+      "pages": "dict",
+      "categories": "dict"
+    },
+    "Core Stats": {
+      "name": "核心屬性",
+      "pages": "dict",
+      "categories": "dict"
+    },
+    "Crafting and Gathering": {
+      "name": "製作與採集",
+      "pages": "dict",
+      "categories": "dict"
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "pages": {
+      "path": "pages",
+      "converter": "ffxivPages"
+    },
+    "categories": {
+      "path": "categories",
+      "converter": "ffxivNamed"
+    }
+  }
+}
